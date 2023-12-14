@@ -15,6 +15,11 @@
   src: url("Poppins/Poppins-Light.ttf");
 }
 
+@font-face {
+  font-family: Poor-Story;
+  src: url("./Poor_Story/PoorStory-Regular.ttf");
+}
+
 /* TODO: check all font sizes again and put them here, for mobile too */
 /* font size desktop */
 .menus {
@@ -25,8 +30,28 @@ h1 {
   font-size: 50px;
 }
 
-.h2 {
+h2 {
   font-size: 48px;
+}
+
+.grey-text {
+  font-size: 16px;
+}
+
+.light-font {
+  font-size: 14px;
+}
+
+.dropdown-title {
+  font-size: 24px;
+}
+
+.plan-title {
+  font-size: 24px;
+}
+
+.dropdown-title .h3-qna {
+  font-size: 18px;
 }
 
 .navbar {
@@ -46,13 +71,20 @@ h1 {
   bottom: 32px;
 }
 
-.first-package .plan-info-item:not(:last-child) {
+.first-package .plan-info-item:not(:last-child),
+.second-package .plan-info-item:not(:last-child),
+.third-package .plan-info-item:not(:last-child){
   margin-bottom: 12px;
 }
 
 .plan-info-item {
   display: flex;
   justify-content: space-between;
+}
+
+.plan-info-details {
+  font-size: 14px;
+  color:#486AF6;
 }
 
 .bg-lines {
@@ -178,7 +210,6 @@ h1 {
 
 .grey-text {
   color: #9f9f9f;
-  font-size: 16px;
   line-height: 26px;
 }
 
@@ -191,7 +222,6 @@ h1 {
 
 .light-font {
   font-family: Poppins-light;
-  font-size: 14px;
 }
 
 .text-section {
@@ -295,7 +325,6 @@ h1 {
 
 .dropdown-title {
   color: #180e73;
-  font-size: 24px;
   font-weight: 700;
   display: flex;
   justify-content: space-between;
@@ -304,10 +333,15 @@ h1 {
 
 .carret {
   padding: 12px;
-
   border-radius: 50%;
   justify-items: center;
   transform: rotate(180deg);
+}
+
+.money-icon, .coin-icon, .lock-icon {
+  padding: 18px;
+  border-radius: 50%;
+  justify-items: center;
 }
 
 .grey {
@@ -377,6 +411,27 @@ h1 {
   margin-top: 32px;
 }
 
+.free-now-text {
+  font-size: 24px;
+  color: #FF3366;
+  font-family: Poor-Story;
+}
+
+.line-through {
+  color:red;
+  text-decoration:line-through;
+  font-size: 24px;
+  width:100%;
+  text-align: end;
+  display: block;
+}
+
+.price-discount {
+  color:#486AF6;
+  text-align: end;
+  font-size: 24px;
+}
+
 .btn-pack {
   width: 100%;
   padding: 16px 32px;
@@ -407,13 +462,19 @@ h1 {
 }
 
 .partners-icons {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 32px;
   margin-top: 48px;
 }
 
+.icons-prt {
+  padding-top: 86px;
+  padding-bottom: 86px;
+  text-align: center;
+}
+
 .qna-description {
-  /*margin-top: -50px;*/
   margin-bottom: 40px;
 }
 
@@ -423,9 +484,13 @@ h1 {
   border-bottom: 2px solid white;
 }
 
+.frequent-questions {
+  text-wrap: nowrap;
+  color: #180e73;
+}
+
 .dropdown-title .h3-qna {
   color: #180e73;
-  font-size: 18px;
 }
 
 #underline {
@@ -441,7 +506,6 @@ h1 {
 .plan-title {
   margin-top: 24px;
   margin-bottom: 32px;
-  font-size: 24px;
 }
 
 .plan-card-header {
@@ -476,10 +540,93 @@ h1 {
   visibility: hidden;
 }
 
+.footer-container {
+  background: #180E73;
+}
+
+.footer-logo {
+  display: grid;
+  grid-template-columns: 15% 85%;
+  margin: auto;
+  max-width: 1440px;
+  padding-left: 80px;
+  padding-right: 80px;
+  gap: 56px;
+  height: 224px;
+}
+
+.jobbin-imgs {
+  text-align: center;
+  margin-top: 43px;
+}
+
+.footer-navigate-links {
+  color: #f2f4f6;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 68px;
+}
+
+.f-nav-links {
+  display:flex;
+  gap: 56px;
+}
+
+.footer-line {
+  height: 30px;
+}
+
+.footer-tos {
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-tos-links {
+  display: flex;
+  color: #f2f4f6;
+  gap: 56px;
+}
+
+.watermark {
+  display: flex;
+  color: #f2f4f6;
+}
+
 @media only screen and (max-width: 500px) {
+
   /* font size mobile */
+
   h1 {
     font-size: 40px;
+  }
+
+  .qna-header h1 {
+    font-size: 24px;
+  }
+
+  .h1-how-section {
+    font-size: 28px;
+  }
+
+  .h3,
+  .dropdown-listing {
+    font-size: 24px;
+  }
+
+  .h2,
+  .h2-packages,
+  .h2-partners,
+  .h2-qna {
+    font-size: 28px;
+  }
+
+  .frequent-questions {
+    font-size: 24px;
+  }
+
+  h1 {
     line-height: 1.25em;
   }
 
@@ -500,10 +647,6 @@ h1 {
 
   .bg-lines {
     display: none;
-  }
-
-  .qna-header h1 {
-    font-size: 24px;
   }
 
   .desktop-container {
@@ -555,7 +698,6 @@ h1 {
   .h1-how-section {
     margin: 0;
     line-height: initial;
-    font-size: 28px;
   }
 
   /* check this */
@@ -563,13 +705,7 @@ h1 {
   .h2-packages,
   .h2-partners,
   .h2-qna {
-    font-size: 28px;
     text-align: center;
-  }
-
-  .h3,
-  .dropdown-listing {
-    font-size: 24px;
   }
 
   .heading-paragraph {
@@ -605,6 +741,5 @@ h1 {
 
   .get-started-btn {
     width: 100%;
-    /*padding: 8px;*/
   }
 }
