@@ -1,128 +1,120 @@
 <!DOCTYPE html>
-
+<!-- TODO -> de scos toate inline style si puse in clase fiecare -->
+<!-- TODO -> de verificat si organizat toate font sizes + font family -->
 <html>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Jobbin</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-  <script src="./script.js"></script>
-  <head> </head>
-  <body class="body">
-    <img class="bg-lines" src="./images/bg-lines.png" />
-    <div class="navbar" class="header">
-      <div class="menu">
-        <div class="logo">
-          <img src="images/jobbin-icon.png" alt="jobbin-monogram-icon-logo" />
-          <img src="images/jobbin-logo.png" alt="jobbin-logo-text" />
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Jobbin</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script src="./script.js"></script>
+
+<head> </head>
+
+<body class="body">
+  <img class="bg-lines" src="./images/bg-lines.png" />
+
+  <div class="navbar">
+    <div class="menu">
+      <div class="logo">
+        <img src="images/jobbin-icon.png" alt="jobbin-monogram-icon-logo" />
+        <img src="images/jobbin-logo.png" alt="jobbin-logo-text" />
+      </div>
+      <div class="menu-cta">
+        <div class="menus-links">
+          <a href="#" class="menus nav-link">Cum Functioneaza</a>
+          <a href="#" class="menus nav-link">Candidati</a>
+          <a href="#" class="menus nav-link">Angajator</a>
+          <a href="#" class="menus nav-link">Preturi</a>
         </div>
-        <div class="menu-cta">
-          <div class="menus-links">
-            <a href="#HowItWorks" class="menus nav-link">Cum Functioneaza</a>
-            <a href="#Candidates" class="menus nav-link">Candidati</a>
-            <a href="#Employer" class="menus nav-link">Angajator</a>
-            <a href="#Prices" class="menus nav-link">Preturi</a>
-          </div>
-          <div class="buttons-links">
-            <button href="#" class="employer-btn">Angajator</button>
-            <button href="#" class="download-btn-nav">Descarca Aplicatia</button>
-          </div>
+        <div class="buttons-links">
+          <button class="employer-btn">Angajator</button>
+          <button class="download-btn-nav">Descarca Aplicatia</button>
         </div>
       </div>
     </div>
-    <div id="landing">
+  </div>
 
-      <section class="white-section">
-        <div class="desktop-container">
-          <div id="hero">
-            <div class="main">
-              <div class="text-section">
-                <div class="main-text-title">
-                  <h1 class="h1 title-style">
-                    Gasirea unui job, mai simplu si usor
-                  </h1>
-                  <img id="red-highlight-main" src="images/red-highlight.png" />
-                </div>
-                <p class="main-section-description grey-text light-font">
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                  quae ab illo inventore veritatis et quasi architecto beatae vitae
-                  dicta sunt explicabo.
-                </p>
-                <button class="download-btn">Descarca Aplicatia</button>
+  <div id="landing">
+
+    <section class="white-section">
+      <div class="desktop-container">
+        <div id="hero">
+          <div class="main">
+            <div class="text-section">
+              <div class="main-text-title">
+                <h1 class="h1 title-style">
+                  Gasirea unui job, mai simplu si usor
+                </h1>
+                <img id="red-highlight-main" src="images/red-highlight.png" />
               </div>
-    
-              <div class="img-section">
-                <img
-                  id="lp-main"
-                  src="/images/hero-main-guy-icecream.png"
-                  alt="guy holding and icecream"
-                />
-                <img id="lp-main-mobile" src="images/landing-page-guy-mobile.png" />
+              <p class="main-section-description grey-text light-font">
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+                quae ab illo inventore veritatis et quasi architecto beatae vitae
+                dicta sunt explicabo.
+              </p>
+              <button class="download-btn">Descarca Aplicatia</button>
+            </div>
+
+            <div class="img-section">
+              <img id="lp-main" src="/images/hero-main-guy-icecream.png" alt="guy holding and icecream" />
+              <img id="lp-main-mobile" src="images/landing-page-guy-mobile.png" />
+            </div>
+          </div>
+          <div class="how-section">
+            <div class="how-text-section">
+              <h1 class="title-style">
+                Cum functioneaza? <span id="red-spikes"></span>
+              </h1>
+              <p class="heading-paragraph grey-text light-font">
+                Nam libero tempore, cum soluta nobis est eligendi optio cumque
+                nihil impedit quo minus id quod maxime placeat facere possimus,
+                omnis voluptas assumenda est, omnis dolor repellendus.
+              </p>
+            </div>
+
+            <div class="frames">
+              <div class="frame-one">
+                <img src="/images/thinking-emoji.png" alt="thinking-emoji circle highlight" />
+                <h3 class="h3 title-style">
+                  Cauta printre locurile de munca disponibile
+                </h3>
+                <p class="frames-description grey-text light-font">
+                  On the road or at home, on vacation or on a walk - control your
+                  time yourself.
+                </p>
+              </div>
+              <div class="frame-two">
+                <img src="/images/guy-emoji.png" alt="guy-emoji circle highlight" />
+                <h3 class="h3 title-style">
+                  Aplica folosind un scurt video sau CV
+                </h3>
+                <p class="frames-description grey-text light-font">
+                  Verified employers and flexible hours with transparent salaries
+                </p>
+              </div>
+              <div class="frame-three">
+                <img src="/images/star-eyes-emoji.png" alt="emoji-with-star-eyes circle highlight" />
+                <h3 class="h3 title-style">
+                  Fii acceptat si ia contactul direct cu angajatorul
+                </h3>
+                <p class="frames-description grey-text light-font">
+                  Instant crediting along with tokens that can be exchanged for
+                  crypto
+                </p>
               </div>
             </div>
-            <div class="how-section">
-              <div class="how-text-section">
-                <h1 class="title-style">
-                  Cum functioneaza? <span id="red-spikes"></span>
-                </h1>
-                <p class="heading-paragraph grey-text light-font">
-                  Nam libero tempore, cum soluta nobis est eligendi optio cumque
-                  nihil impedit quo minus id quod maxime placeat facere possimus,
-                  omnis voluptas assumenda est, omnis dolor repellendus.
-                </p>
-              </div>
-    
-              <div class="frames">
-                <div class="frame-one">
-                  <img
-                    src="/images/thinking-emoji.png"
-                    alt="thinking-emoji circle highlight"
-                  />
-                  <h3 class="h3 title-style">
-                    Cauta printre locurile de munca disponibile
-                  </h3>
-                  <p class="frames-description grey-text light-font">
-                    On the road or at home, on vacation or on a walk - control your
-                    time yourself.
-                  </p>
-                </div>
-                <div class="frame-two">
-                  <img
-                    src="/images/guy-emoji.png"
-                    alt="guy-emoji circle highlight"
-                  />
-                  <h3 class="h3 title-style">
-                    Aplica folosind un scurt video sau CV
-                  </h3>
-                  <p class="frames-description grey-text light-font">
-                    Verified employers and flexible hours with transparent salaries
-                  </p>
-                </div>
-                <div class="frame-three">
-                  <img
-                    src="/images/star-eyes-emoji.png"
-                    alt="emoji-with-star-eyes circle highlight"
-                  />
-                  <h3 class="h3 title-style">
-                    Fii acceptat si ia contactul direct cu angajatorul
-                  </h3>
-                  <p class="frames-description grey-text light-font">
-                    Instant crediting along with tokens that can be exchanged for
-                    crypto
-                  </p>
-                </div>
-              </div>
-    
-              <div class="btn">
-                <button class="get-started-btn">Get started</button>
-              </div>
+
+            <div class="btn">
+              <button class="get-started-btn">Get started</button>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="grey-section">
-       <div class="desktop-container">
+    <section class="grey-section" id="candidates-benefits">
+      <div class="desktop-container">
         <div class="benefits">
           <div class="panels">
             <div class="features-list">
@@ -215,7 +207,7 @@
 
           <div class="text-benefits">
             <div class="benefits-employer-title">
-              <img class="red-asterix" src="images/red-asterix.png" />
+              <img class="red-asterix-candidates" src="images/red-asterix.png" />
               <h1 class="h2 title-style">Beneficii Candidati</h2>
             </div>
             <p class="heading-paragraph light-font">
@@ -226,305 +218,428 @@
           </div>
 
         </div>
-       </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="white-section">
-        <div class="desktop-container">
-          <div class="benefits">
-            <div class="panels">
-              <div class="features-list">
-                <div class="dropdowns-employer">
-                  <div class="dropdown-listing">
-                    <div class="dropdown-title">
-                      <p class="title-style">First feature</p>
-                      <img class="carret white" src="./images/carret-down.svg" />
-                    </div>
-                    <p class="dropdown-text grey-text light-font">
-                      At vero eos et accusamus et iusto odio dignissimos ducimus
-                      qui blanditiis praesentium voluptatum deleniti atque
-                      corrupti quos dolores et quas. Molestias excepturi sint
-                      occaecati cupiditate non provident, similique sunt in
-                      culpa qui officia deserunt mollitia animi, id est laborum
-                      et dolorum fuga.
-                    </p>
+    <section class="white-section">
+      <div class="desktop-container">
+        <div class="benefits">
+          <div class="panels">
+            <div class="features-list">
+              <div class="dropdowns-employer">
+                <div class="dropdown-listing">
+                  <div class="dropdown-title">
+                    <p class="title-style">First feature</p>
+                    <img class="carret white" src="./images/carret-down.svg" />
                   </div>
+                  <p class="dropdown-text grey-text light-font">
+                    At vero eos et accusamus et iusto odio dignissimos ducimus
+                    qui blanditiis praesentium voluptatum deleniti atque
+                    corrupti quos dolores et quas. Molestias excepturi sint
+                    occaecati cupiditate non provident, similique sunt in
+                    culpa qui officia deserunt mollitia animi, id est laborum
+                    et dolorum fuga.
+                  </p>
                 </div>
+              </div>
 
-                <div class="dropdowns-employer">
-                  <div class="dropdown-listing">
-                    <div class="dropdown-title">
-                      <p class="title-style">Second feature</p>
-                      <img class="carret white" src="./images/carret-down.svg" />
-                    </div>
-                    <p class="dropdown-text grey-text light-font">
-                      At vero eos et accusamus et iusto odio dignissimos ducimus
-                      qui blanditiis praesentium voluptatum deleniti atque
-                      corrupti quos dolores et quas. Molestias excepturi sint
-                      occaecati cupiditate non provident, similique sunt in
-                      culpa qui officia deserunt mollitia animi, id est laborum
-                      et dolorum fuga.
-                    </p>
+              <div class="dropdowns-employer">
+                <div class="dropdown-listing">
+                  <div class="dropdown-title">
+                    <p class="title-style">Second feature</p>
+                    <img class="carret white" src="./images/carret-down.svg" />
                   </div>
+                  <p class="dropdown-text grey-text light-font">
+                    At vero eos et accusamus et iusto odio dignissimos ducimus
+                    qui blanditiis praesentium voluptatum deleniti atque
+                    corrupti quos dolores et quas. Molestias excepturi sint
+                    occaecati cupiditate non provident, similique sunt in
+                    culpa qui officia deserunt mollitia animi, id est laborum
+                    et dolorum fuga.
+                  </p>
                 </div>
-                <div class="dropdowns-employer">
-                  <div class="dropdown-listing">
-                    <div class="dropdown-title">
-                      <p class="title-style">Third feature</p>
-                      <img class="carret white" src="./images/carret-down.svg" />
-                    </div>
-                    <p class="dropdown-text grey-text light-font">
-                      At vero eos et accusamus et iusto odio dignissimos ducimus
-                      qui blanditiis praesentium voluptatum deleniti atque
-                      corrupti quos dolores et quas. Molestias excepturi sint
-                      occaecati cupiditate non provident, similique sunt in
-                      culpa qui officia deserunt mollitia animi, id est laborum
-                      et dolorum fuga.
-                    </p>
+              </div>
+              <div class="dropdowns-employer">
+                <div class="dropdown-listing">
+                  <div class="dropdown-title">
+                    <p class="title-style">Third feature</p>
+                    <img class="carret white" src="./images/carret-down.svg" />
                   </div>
+                  <p class="dropdown-text grey-text light-font">
+                    At vero eos et accusamus et iusto odio dignissimos ducimus
+                    qui blanditiis praesentium voluptatum deleniti atque
+                    corrupti quos dolores et quas. Molestias excepturi sint
+                    occaecati cupiditate non provident, similique sunt in
+                    culpa qui officia deserunt mollitia animi, id est laborum
+                    et dolorum fuga.
+                  </p>
                 </div>
+              </div>
 
-                <div class="dropdowns-employer">
-                  <div class="dropdown-listing">
-                    <div class="dropdown-title">
-                      <p class="title-style">Fourth feature</p>
-                      <img class="carret white" src="./images/carret-down.svg" />
-                    </div>
-                    <p class="dropdown-text grey-text light-font">
-                      At vero eos et accusamus et iusto odio dignissimos ducimus
-                      qui blanditiis praesentium voluptatum deleniti atque
-                      corrupti quos dolores et quas. Molestias excepturi sint
-                      occaecati cupiditate non provident, similique sunt in
-                      culpa qui officia deserunt mollitia animi, id est laborum
-                      et dolorum fuga.
-                    </p>
+              <div class="dropdowns-employer">
+                <div class="dropdown-listing">
+                  <div class="dropdown-title">
+                    <p class="title-style">Fourth feature</p>
+                    <img class="carret white" src="./images/carret-down.svg" />
                   </div>
+                  <p class="dropdown-text grey-text light-font">
+                    At vero eos et accusamus et iusto odio dignissimos ducimus
+                    qui blanditiis praesentium voluptatum deleniti atque
+                    corrupti quos dolores et quas. Molestias excepturi sint
+                    occaecati cupiditate non provident, similique sunt in
+                    culpa qui officia deserunt mollitia animi, id est laborum
+                    et dolorum fuga.
+                  </p>
                 </div>
+              </div>
 
-                <div class="dropdowns-employer">
-                  <div class="dropdown-listing">
-                    <div class="dropdown-title">
-                      <p class="title-style">Fifth feature</p>
-                      <img class="carret white" src="./images/carret-down.svg" />
-                    </div>
-                    <p class="dropdown-text grey-text light-font">
-                      At vero eos et accusamus et iusto odio dignissimos ducimus
-                      qui blanditiis praesentium voluptatum deleniti atque
-                      corrupti quos dolores et quas. Molestias excepturi sint
-                      occaecati cupiditate non provident, similique sunt in
-                      culpa qui officia deserunt mollitia animi, id est laborum
-                      et dolorum fuga.
-                    </p>
+              <div class="dropdowns-employer">
+                <div class="dropdown-listing">
+                  <div class="dropdown-title">
+                    <p class="title-style">Fifth feature</p>
+                    <img class="carret white" src="./images/carret-down.svg" />
                   </div>
-                </div>
-              </div>
-            </div>
-            <div class="text-benefits">
-              <div class="benefits-employer-title">
-                <img class="red-asterix" src="images/red-asterix.png" />
-                <h1 class="h2 title-style">Beneficii Angajator</h2>
-              </div>
-              <p class="heading-paragraph light-font">
-                Nam libero tempore, cum soluta nobis est eligendi optio cumque
-                nihil impedit quo minus id quod maxime placeat facere possimus,
-                omnis voluptas assumenda est, omnis dolor repellendus.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="grey-section">
-        <div class="desktop-container">
-          <div class="header-text">
-            <img id="new-sign" src="images/new-sign.png" />
-            <h1 class="h2-packages title-style">Pachete Angajatori</h2>
-          </div>
-          <p class="heading-paragraph grey-text light-font">
-            Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
-            impedit quo minus id quod maxime placeat facere possimus, omnis
-            voluptas assumenda est, omnis dolor repellendus.
-          </p>
-
-          <div class="packages-display">
-            <div class="package">
-              <div class="first-package">
-                <div class="package-title">
-                  <img src="images/money.png" />
-                  <h3 class="h3 title-style">Pachet Basic</h3>
-                </div>
-                <div class="end-date">
-                  <p class="package-details grey-text light-font">End Date:</p>
-                </div>
-                <div class="fundraising">
-                  <p class="package-details grey-text light-font">
-                    Fundraising Goal
+                  <p class="dropdown-text grey-text light-font">
+                    At vero eos et accusamus et iusto odio dignissimos ducimus
+                    qui blanditiis praesentium voluptatum deleniti atque
+                    corrupti quos dolores et quas. Molestias excepturi sint
+                    occaecati cupiditate non provident, similique sunt in
+                    culpa qui officia deserunt mollitia animi, id est laborum
+                    et dolorum fuga.
                   </p>
                 </div>
-                <div class="token">
-                  <p class="package-details grey-text light-font">
-                    Token Pricing
-                  </p>
-                </div>
-                <div class="min-inv">
-                  <p class="package-details grey-text light-font">
-                    Minimum Investment:
-                  </p>
-                </div>
-                <div class="max-inv">
-                  <p class="package-details grey-text light-font">
-                    Maximum Investment:
-                  </p>
-                </div>
-              </div>
-              <div class="package-btn">
-                <button class="btn-pack">Alege acum</button>
-              </div>
-            </div>
-
-            <div class="package">
-              <div class="second-package">
-                <div class="package-title">
-                  <img src="images/money.png" />
-                  <h3 class="h3 title-style">Pachet Standard</h3>
-                </div>
-                <div class="end-date">
-                  <p class="package-details grey-text light-font">End Date:</p>
-                </div>
-                <div class="fundraising">
-                  <p class="package-details grey-text light-font">
-                    Fundraising Goal
-                  </p>
-                </div>
-                <div class="token">
-                  <p class="package-details grey-text light-font">
-                    Token Pricing
-                  </p>
-                </div>
-                <div class="min-inv">
-                  <p class="package-details grey-text light-font">
-                    Minimum Investment:
-                  </p>
-                </div>
-                <div class="max-inv">
-                  <p class="package-details grey-text light-font">
-                    Maximum Investment:
-                  </p>
-                </div>
-              </div>
-              <div class="package-btn">
-                <button class="btn-pack">Alege acum</button>
-              </div>
-            </div>
-
-            <div class="package">
-              <div class="third-package">
-                <div class="package-title">
-                  <img src="images/moon.png" />
-                  <h3 class="h3 title-style">Pachet Premium</h3>
-                </div>
-                <div class="end-date">
-                  <p class="package-details grey-text light-font">End Date:</p>
-                </div>
-                <div class="fundraising">
-                  <p class="package-details grey-text light-font">
-                    Fundraising Goal
-                  </p>
-                </div>
-                <div class="token">
-                  <p class="package-details grey-text light-font">
-                    Token Pricing
-                  </p>
-                </div>
-                <div class="min-inv">
-                  <p class="package-details grey-text light-font">
-                    Minimum Investment:
-                  </p>
-                </div>
-                <div class="max-inv">
-                  <p class="package-details grey-text light-font">
-                    Maximum Investment:
-                  </p>
-                </div>
-              </div>
-              <div class="package-btn">
-                <button class="btn-pack">Alege acum</button>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-
-      <section class="white-section">
-        <div class="desktop-container">
-          <div class="partners-main">
-            <div class="partners-heading">
-              <h1 class="h2-partners title-style">Parteneri</h2>
-              <img id="wavy-underline" src="images/wavy-underline.png" />
+          <div class="text-benefits">
+            <div class="benefits-employer-title">
+              <img class="red-asterix-employer" src="images/red-asterix.png" />
+              <h1 class="h2 title-style">Beneficii Angajator</h2>
             </div>
-            <p class="partners-description grey-text light-font">
+            <p class="heading-paragraph light-font">
               Nam libero tempore, cum soluta nobis est eligendi optio cumque
               nihil impedit quo minus id quod maxime placeat facere possimus,
               omnis voluptas assumenda est, omnis dolor repellendus.
             </p>
           </div>
+        </div>
+      </div>
+    </section>
 
-          <div class="partners-icons">
-            <div class="first-prt">
-              <img src="images/partners-1.png" />
+    <section class="grey-section">
+      <div class="desktop-container">
+        <div class="header-text">
+          <img id="new-sign" src="images/new-sign.png" />
+          <h1 class="h2-packages title-style">Pachete Angajatori</h2>
+        </div>
+        <p class="heading-paragraph grey-text light-font">
+          Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
+          impedit quo minus id quod maxime placeat facere possimus, omnis
+          voluptas assumenda est, omnis dolor repellendus.
+        </p>
+
+        <div class="packages-display">
+          <div class="package">
+            <div class="first-package">
+              <div class="package-title">
+                <div class="plan-card-header">
+                  <img src="images/money.png" />
+                  <div>
+                    <p style="font-size: 24px; color: #FF3366; font-family: Poppins-light;">Gratuit acum</p>
+                    <span
+                      style='color:red;text-decoration:line-through; font-size: 24px;width:100%;text-align: end;display: block;'>
+                      <span style='color:#486AF6; text-align: end; font-size: 24px;'>29,99 Lei</span>
+                    </span>
+                  </div>
+                </div>
+                <h3 class="h3 title-style plan-title">Pachet Basic</h3>
+              </div>
+              <div class="end-date plan-info-item">
+                <p class="package-details grey-text light-font">End Date:</p>
+                <p style="font-size: 14px; color:#486AF6;">30-11-2021</p>
+              </div>
+              <div class="fundraising plan-info-item">
+                <p class="package-details grey-text light-font">
+                  Fundraising Goal
+                </p>
+              </div>
+              <div class="token plan-info-item">
+                <p class="package-details grey-text light-font">
+                  Token Pricing
+                </p>
+              </div>
+              <div class="min-inv plan-info-item">
+                <p class="package-details grey-text light-font">
+                  Minimum Investment:
+                </p>
+              </div>
+              <div class="max-inv plan-info-item">
+                <p class="package-details grey-text light-font">
+                  Maximum Investment:
+                </p>
+              </div>
             </div>
-            <div class="second-prt">
-              <img src="images/partners-2.png" />
+            <div class="package-btn">
+              <button class="btn-pack">Alege acum</button>
             </div>
-            <div class="third-prt">
-              <img src="images/partners-3.png" />
+          </div>
+
+          <div class="package">
+            <div class="second-package">
+              <div class="package-title">
+                <img src="images/money.png" />
+                <h3 class="h3 title-style">Pachet Standard</h3>
+              </div>
+              <div class="end-date">
+                <p class="package-details grey-text light-font">End Date:</p>
+              </div>
+              <div class="fundraising">
+                <p class="package-details grey-text light-font">
+                  Fundraising Goal
+                </p>
+              </div>
+              <div class="token">
+                <p class="package-details grey-text light-font">
+                  Token Pricing
+                </p>
+              </div>
+              <div class="min-inv">
+                <p class="package-details grey-text light-font">
+                  Minimum Investment:
+                </p>
+              </div>
+              <div class="max-inv">
+                <p class="package-details grey-text light-font">
+                  Maximum Investment:
+                </p>
+              </div>
             </div>
-            <div class="fourth-prt">
-              <img src="images/partners-4.png" />
+            <div class="package-btn">
+              <button class="btn-pack">Alege acum</button>
             </div>
-            <div class="fifth-prt">
-              <img src="images/partners-5.png" />
+          </div>
+
+          <!-- TODO -- trebuie sa iei toate imaginile iar dar fara bg -> moon, lock and money pack si sa le faci tu bg cu border-radius, bg color..etc, am facut pentru carret acelasi lucru, uita-te acolo -->
+          <div class="package">
+            <div class="third-package">
+              <div class="package-title">
+                <img src="images/moon.png" />
+                <h3 class="h3 title-style">Pachet Premium</h3>
+              </div>
+              <div class="end-date">
+                <p class="package-details grey-text light-font">End Date:</p>
+              </div>
+              <div class="fundraising">
+                <p class="package-details grey-text light-font">
+                  Fundraising Goal
+                </p>
+              </div>
+              <div class="token">
+                <p class="package-details grey-text light-font">
+                  Token Pricing
+                </p>
+              </div>
+              <div class="min-inv">
+                <p class="package-details grey-text light-font">
+                  Minimum Investment:
+                </p>
+              </div>
+              <div class="max-inv">
+                <p class="package-details grey-text light-font">
+                  Maximum Investment:
+                </p>
+              </div>
+            </div>
+            <div class="package-btn">
+              <button class="btn-pack">Alege acum</button>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="grey-section">
-        <div class="desktop-container">
-          <div class="qna-header">
-            <h1 class="title-style">Intrebari Frecvente</h2>
+    <section class="white-section">
+      <div class="desktop-container">
+        <div class="partners-main">
+          <div class="partners-heading">
+            <h1 class="h2-partners title-style">Parteneri</h2>
+              <img id="wavy-underline" src="images/wavy-underline.png" />
+          </div>
+          <p class="partners-description grey-text light-font">
+            Nam libero tempore, cum soluta nobis est eligendi optio cumque
+            nihil impedit quo minus id quod maxime placeat facere possimus,
+            omnis voluptas assumenda est, omnis dolor repellendus.
+          </p>
+        </div>
+
+        <div class="partners-icons">
+          <div class="first-prt">
+            <img src="images/partners-1.png" />
+          </div>
+          <div class="second-prt">
+            <img src="images/partners-2.png" />
+          </div>
+          <div class="third-prt">
+            <img src="images/partners-3.png" />
+          </div>
+          <div class="fourth-prt">
+            <img src="images/partners-4.png" />
+          </div>
+          <div class="fifth-prt">
+            <img src="images/partners-5.png" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="grey-section">
+      <div class="desktop-container">
+        <div class="qna-header" style="width: min-content;">
+          <h1 class="title-style" style="text-wrap: nowrap;">Intrebari Frecvente</h2>
             <p class="qna-description grey-text light-font">
               Quis autem vel eum iure reprehenderit qui in ea voluptate velit
               esse quam nihil molestiae consequatur.
             </p>
+        </div>
+
+        <div class="questions">
+          <div class="q-selection">
+            <div class="dropdown-title">
+              <h3 class="h3-qna title-style">Question #1</h3>
+              <img class="carret grey" src="./images/carret-down.svg" />
+            </div>
+            <p class="dropdown-text grey-text light-font">
+              At vero eos et accusamus et iusto odio dignissimos ducimus
+              qui blanditiis praesentium voluptatum deleniti atque
+              corrupti quos dolores et quas. Molestias excepturi sint
+              occaecati cupiditate non provident, similique sunt in
+              culpa qui officia deserunt mollitia animi, id est laborum
+              et dolorum fuga.
+            </p>
+          </div>
+          <div class="q-selection">
+            <div class="dropdown-title">
+              <h3 class="h3-qna title-style">Question #2</h3>
+              <img class="carret grey" src="./images/carret-down.svg" />
+            </div>
+            <p class="dropdown-text grey-text light-font">
+              At vero eos et accusamus et iusto odio dignissimos ducimus
+              qui blanditiis praesentium voluptatum deleniti atque
+              corrupti quos dolores et quas. Molestias excepturi sint
+              occaecati cupiditate non provident, similique sunt in
+              culpa qui officia deserunt mollitia animi, id est laborum
+              et dolorum fuga.
+            </p>
+          </div>
+          <div class="q-selection">
+            <div class="dropdown-title">
+              <h3 class="h3-qna title-style">Question #3</h3>
+              <img class="carret grey" src="./images/carret-down.svg" />
+            </div>
+            <p class="dropdown-text grey-text light-font">
+              At vero eos et accusamus et iusto odio dignissimos ducimus
+              qui blanditiis praesentium voluptatum deleniti atque
+              corrupti quos dolores et quas. Molestias excepturi sint
+              occaecati cupiditate non provident, similique sunt in
+              culpa qui officia deserunt mollitia animi, id est laborum
+              et dolorum fuga.
+            </p>
+          </div>
+          <div class="q-selection">
+            <div class="dropdown-title">
+              <h3 class="h3-qna title-style">Question #4</h3>
+              <img class="carret grey" src="./images/carret-down.svg" />
+            </div>
+            <p class="dropdown-text grey-text light-font">
+              At vero eos et accusamus et iusto odio dignissimos ducimus
+              qui blanditiis praesentium voluptatum deleniti atque
+              corrupti quos dolores et quas. Molestias excepturi sint
+              occaecati cupiditate non provident, similique sunt in
+              culpa qui officia deserunt mollitia animi, id est laborum
+              et dolorum fuga.
+            </p>
+          </div>
+          <div class="q-selection">
+            <div class="dropdown-title">
+              <h3 class="h3-qna title-style">Question #5</h3>
+              <img class="carret grey" src="./images/carret-down.svg" />
+            </div>
+            <p class="dropdown-text grey-text light-font">
+              At vero eos et accusamus et iusto odio dignissimos ducimus
+              qui blanditiis praesentium voluptatum deleniti atque
+              corrupti quos dolores et quas. Molestias excepturi sint
+              occaecati cupiditate non provident, similique sunt in
+              culpa qui officia deserunt mollitia animi, id est laborum
+              et dolorum fuga.
+            </p>
+          </div>
+          <div class="q-selection">
+            <div class="dropdown-title">
+              <h3 class="h3-qna title-style">Question #6</h3>
+              <img class="carret grey" src="./images/carret-down.svg" />
+            </div>
+            <p class="dropdown-text grey-text light-font">
+              At vero eos et accusamus et iusto odio dignissimos ducimus
+              qui blanditiis praesentium voluptatum deleniti atque
+              corrupti quos dolores et quas. Molestias excepturi sint
+              occaecati cupiditate non provident, similique sunt in
+              culpa qui officia deserunt mollitia animi, id est laborum
+              et dolorum fuga.
+            </p>
+          </div>
+          <div class="q-selection">
+            <div class="dropdown-title">
+              <h3 class="h3-qna title-style">Question #7</h3>
+              <img class="carret grey" src="./images/carret-down.svg" />
+            </div>
+            <p class="dropdown-text grey-text light-font">
+              At vero eos et accusamus et iusto odio dignissimos ducimus
+              qui blanditiis praesentium voluptatum deleniti atque
+              corrupti quos dolores et quas. Molestias excepturi sint
+              occaecati cupiditate non provident, similique sunt in
+              culpa qui officia deserunt mollitia animi, id est laborum
+              et dolorum fuga.
+            </p>
           </div>
 
-          <div class="questions">
-            <div class="q-selection">
-              <h3 class="h3-qna title-style">Question #1</h3>
-            </div>
-            <div class="q-selection">
-              <h3 class="h3-qna title-style">Question #2</h3>
-            </div>
-            <div class="q-selection">
-              <h3 class="h3-qna title-style">Question #3</h3>
-            </div>
-            <div class="q-selection">
-              <h3 class="h3-qna title-style">Question #4</h3>
-            </div>
-            <div class="q-selection">
-              <h3 class="h3-qna title-style">Question #5</h3>
-            </div>
-            <div class="q-selection">
-              <h3 class="h3-qna title-style">Question #6</h3>
-            </div>
-            <div class="q-selection">
-              <h3 class="h3-qna title-style">Question #7</h3>
-            </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <footer style="background: #486AF6;">
+    <div
+      style="display: grid; grid-template-columns: 15% 85%; margin: auto;max-width: 1440px; padding-left: 80px; padding-right: 80px; ">
+      <div style="background: red; height: 90px;">
+      </div>
+      <div>
+        <div style="background: white; height: 30px; display: flex; justify-content: space-between;">
+          <div style="display:flex;">
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+            <p>4</p>
+          </div>
+          <div style="display: flex;">
+            <p>1</p>
+            <p>2</p>
           </div>
         </div>
-      </section>
-      
+        <div style="background: black; height: 30px;"></div>
+        <div style="background: purple; height: 30px;  display: flex; justify-content: space-between;"">
+            <div style=" display:flex;">
+          <p>1</p>
+          <p>2</p>
+          <p>3</p>
+        </div>
+        <div style="display: flex;">
+          <p>1</p>
+        </div>
+      </div>
     </div>
-  </body>
+    </div>
+  </footer>
+</body>
+
 </html>
