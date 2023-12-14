@@ -82,6 +82,22 @@ h2 {
   justify-content: space-between;
 }
 
+.nav-logo {
+  display: block;
+}
+
+.nav-icon {
+  display: block;
+}
+
+.nav-logo-mobile {
+  display: none;
+}
+
+.burger-menu {
+  display: none;
+}
+
 .plan-info-details {
   font-size: 14px;
   color:#486AF6;
@@ -106,6 +122,10 @@ h2 {
 
 .navbar {
   border: 2px solid #f2f4f6;
+}
+
+.footer-socials {
+  gap: 16px;
 }
 
 .menu {
@@ -166,6 +186,7 @@ h2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 32px;
+  grid-column: span 2;
 }
 
 .download-btn {
@@ -469,7 +490,7 @@ h1 {
 
 .partners-icons {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 32px;
   margin-top: 48px;
 }
@@ -579,6 +600,11 @@ h1 {
   gap: 56px;
 }
 
+.text-link{
+  text-decoration: none;
+  color: #f2f4f6;
+}
+
 .footer-line {
   height: 1px;
   background: white;
@@ -646,9 +672,19 @@ h1 {
     z-index: 1;
   }
 
+
+  .main {
+    margin-top: 0;
+  }
+
   .partners-icons {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+
+  .prt-two-group {
+    gap: 16px;
   }
 
   .frames,
@@ -665,12 +701,14 @@ h1 {
   .desktop-container {
     padding-left: 16px;
     padding-right: 16px;
+    padding-top: 24px;
+    padding-bottom: 24px;
   }
 
-  .navbar {
+  .menu-cta {
     display: none;
-    visibility: hidden;
   }
+
 
   .img-section {
     text-align: -webkit-center;
@@ -759,15 +797,72 @@ h1 {
     display: block;
     padding-left: 16px;
     padding-right: 16px;
+    padding-top: 24px;
+    padding-bottom: 24px;
   }
 
+  .watermark {
+    margin-top: 32px;
+  }
+
+  .text-link {
+    font-size: 14px;
+  }
+
+.footer-navigate-links {
+  margin-top: 32px;
+}
+
   .f-nav-links {
+
     gap: 16px;
-    display: block;
+    flex-direction: column;
   }
 
   .footer-tos {
     display: block;
+  }
+
+  .prt-last {
+    grid-column: span 2;
+  }
+
+  .icons-prt { 
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .nav-logo {
+    display: none;
+  }
+
+  .nav-icon {
+    display: none;
+  }
+
+  .nav-logo-mobile {
+    display: block;
+  }
+
+
+  .burger-menu {
+    display: block;
+    padding: 12px 16px;
+    border: 1px solid #486AF6;
+    height: fit-content;
+    width: fit-content;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .menu {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .footer-socials {
+    gap: 8px;
   }
   
 }
