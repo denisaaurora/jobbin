@@ -95,7 +95,7 @@ h2 {
   z-index: 1;
 }
 
-#lp-main {
+#hero {
   position: relative;
   z-index: 2;
 }
@@ -160,6 +160,12 @@ h2 {
   cursor: pointer;
   border: 0;
   border-radius: 0;
+}
+
+.prt-two-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
 }
 
 .download-btn {
@@ -463,7 +469,7 @@ h1 {
 
 .partners-icons {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(12, 1fr);
   gap: 32px;
   margin-top: 48px;
 }
@@ -551,21 +557,21 @@ h1 {
   max-width: 1440px;
   padding-left: 80px;
   padding-right: 80px;
+  padding-top: 64px;
+  padding-bottom: 64px;
   gap: 56px;
-  height: 224px;
+  align-items: center;
 }
 
 .jobbin-imgs {
   text-align: center;
-  margin-top: 43px;
+  height: fit-content;
 }
 
 .footer-navigate-links {
   color: #f2f4f6;
-  height: 30px;
   display: flex;
   justify-content: space-between;
-  margin-top: 68px;
 }
 
 .f-nav-links {
@@ -574,11 +580,13 @@ h1 {
 }
 
 .footer-line {
-  height: 30px;
+  height: 1px;
+  background: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .footer-tos {
-  height: 30px;
   display: flex;
   justify-content: space-between;
 }
@@ -638,6 +646,11 @@ h1 {
     z-index: 1;
   }
 
+  .partners-icons {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
   .frames,
   .packages-display {
     display: grid;
@@ -689,8 +702,7 @@ h1 {
 
   .main,
   .benefits-candidates,
-  .benefits-employer,
-  .partners-icons {
+  .benefits-employer {
     display: block;
     padding: 0;
   }
@@ -742,4 +754,20 @@ h1 {
   .get-started-btn {
     width: 100%;
   }
+
+  .footer-logo {
+    display: block;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .f-nav-links {
+    gap: 16px;
+    display: block;
+  }
+
+  .footer-tos {
+    display: block;
+  }
+  
 }
