@@ -198,6 +198,16 @@ h2 {
   border-radius: 0;
 }
 
+.learn-more-btn {
+  padding: 16px 32px;
+  background-color: #486af6;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  border: 0;
+  border-radius: 0;
+}
+
 .prt-two-group {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -641,6 +651,11 @@ h1 {
   visibility: hidden;
 }
 
+.coin-img-mobile {
+  display: none;
+  visibility: hidden;
+}
+
 .footer-container {
   background: #180E73;
 }
@@ -779,6 +794,10 @@ h1 {
     padding-bottom: 24px;
   }
 
+  .desktop-container-hiring {
+    display: initial;
+  }
+
   .menu-cta {
     display: none;
   }
@@ -793,7 +812,17 @@ h1 {
     visibility: hidden;
   }
 
+  .coin-img {
+    display: none;
+    visibility: hidden;
+  }
+
   #lp-main-mobile {
+    display: block;
+    visibility: visible;
+  }
+
+  .coin-img-mobile {
     display: block;
     visibility: visible;
   }
@@ -857,6 +886,12 @@ h1 {
     padding: 0;
   }
 
+  .new-sign-employer {
+    position: absolute;
+    top: -32px;
+    right: 108px;
+    left: 200px;
+  }
 
   .packages-display {
     text-align: -webkit-center;
@@ -953,6 +988,15 @@ h1 {
     position: absolute;
     right: 0;
     top: -18px;
+  }
+
+  .learn-more-btn {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+
+  .get-a-job-text {
+    margin-top: 32px;
   }
   
 }
