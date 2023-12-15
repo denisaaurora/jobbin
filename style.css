@@ -60,7 +60,25 @@ h2 {
 }
 
 .logo {
+  cursor: pointer;
   display: flex;
+}
+
+.desktop-container.blue {
+  padding-bottom: 0;
+}
+
+#lp-main-circle-mobile {
+  display: none;
+}
+
+#lp-main-circle {
+  display: block;
+}
+
+.hero-blue.img-section {
+  margin-top: 32px !important;
+  
 }
 
 /*.bg-image {*/
@@ -229,7 +247,7 @@ h2 {
 
 .nav-link {
   text-decoration: none;
-  color: #222222;
+  /* color: #222222; */
   margin-right: 32px;
 }
 
@@ -243,7 +261,6 @@ h2 {
 
 .main-employer {
   display: flex;
-  height: 800px;
   overflow: hidden;
   align-items: center;
   flex-direction: column;
@@ -253,8 +270,14 @@ h2 {
 }
 
 .blue-section {
-  height: 800px;
   background: linear-gradient(115deg, rgba(24, 14, 115, 0.90) 0.87%, rgba(72, 106, 246, 0.90) 93.97%, rgba(72, 106, 246, 0.90) 93.97%);
+}
+
+.title-name {
+  margin-top: 4px;
+  margin-bottom: 8px;
+  color: #486AF6;
+  font-size: 16px;
 }
 
 .main-text-title {
@@ -277,10 +300,31 @@ h1 {
   line-height: 76px;
 }
 
+.about-company {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.about-company .text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-company .h2 {
+  text-align: left;
+}
+
+.about-company .download-btn-nav {
+  margin-top: 32px;
+  width: fit-content;
+}
+
 .h2 {
   margin-bottom: 0;
   color: #180e73;
-  text-align: left;
+  text-align: center;
   width: 100%;
 }
 
@@ -323,9 +367,9 @@ h1 {
 .main-section-description-employer {
   width: 100%;
   margin-top: 30px;
-  color: white;
   font-size: 16px;
   line-height: 26px;
+  text-align: center;
 }
 
 .how-text-section {
@@ -717,11 +761,59 @@ h1 {
   color: #f2f4f6;
 }
 
+.team-member-name {
+  font-size: 24px !important;
+}
+
+.team .frame-one:after,
+.team .frame-two:after {
+  display: none;
+}
+
+#lp-main-circle {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.blue #lp-main {
+  z-index: 2;
+  position: relative;
+  height: fit-content;
+}
+
+.desktop-container.blue {
+  padding-bottom: 0 !important;
+}
+
+.hero-blue.img-section {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.blue-section #red-highlight-main {
+  bottom:-16px; 
+  right: 50px;
+}
+
+.blue-section .main-text-title-employer {
+  position: relative;
+}
+
+.blue-section .text-section-employer {
+  max-width: 500px;
+}
+
 @media only screen and (max-width: 500px) {
 
   /* font size mobile */
 
-  h1 {
+  h1, .h1-employer {
     font-size: 40px;
   }
 
@@ -736,6 +828,15 @@ h1 {
   .h3,
   .dropdown-listing {
     font-size: 24px;
+  }
+
+  .main-section-description-employer {
+    font-size: 14px;
+    text-align: start;
+  }
+
+  .h1-employer {
+    text-align: start;
   }
 
   .h2,
@@ -900,12 +1001,7 @@ h1 {
     display: flex;
     flex-direction: column;
   }
-
-  .img-section > img {
-    height: 375px;
-    width: 375px;
-  }
-
+  
   #new-sign {
     margin-left: 0;
     /*top: 16px;*/
@@ -1009,6 +1105,7 @@ h1 {
   .footer-socials {
     gap: 8px;
   }
+
 
   .red-asterix-employer,
   .red-asterix-candidates {

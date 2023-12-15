@@ -29,4 +29,8 @@ const addDropDownClickListener = (element, index) => {
     })
 }
 
+function redirectToIndex() {
+    window.location.href = "/"
+}
+
 document.addEventListener("DOMContentLoaded", setupDropDowns)
