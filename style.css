@@ -243,7 +243,6 @@ h2 {
 }
 
 .blue-section {
-  width: 1440px;
   height: 800px;
   background: linear-gradient(115deg, rgba(24, 14, 115, 0.90) 0.87%, rgba(72, 106, 246, 0.90) 93.97%, rgba(72, 106, 246, 0.90) 93.97%);
 }
