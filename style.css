@@ -59,6 +59,15 @@ h2 {
   z-index: 3;
 }
 
+.logo {
+  display: flex;
+}
+
+/*.bg-image {*/
+/*  background: rgb(43,36,148);*/
+/*  background: linear-gradient(90deg, rgba(43,36,148,1) 0%, rgba(54,100,193,1) 35%, rgba(68,96,217,1) 100%);*/
+/*}*/
+
 .frame-one:after,
 .frame-two:after {
   content: "";
@@ -108,6 +117,13 @@ h2 {
   left: 50%;
   transform: translateX(-50%);
   top: 0px;
+  z-index: 1;
+}
+
+.bg-img {
+  position: absolute;
+  width: 100%;
+  top: 99px;
   z-index: 1;
 }
 
@@ -215,12 +231,41 @@ h2 {
   align-items: center;
 }
 
+.main-employer {
+  display: flex;
+  height: 800px;
+  overflow: hidden;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 99;
+  margin-bottom: 0;
+}
+
+.blue-section {
+  width: 1440px;
+  height: 800px;
+  background: linear-gradient(115deg, rgba(24, 14, 115, 0.90) 0.87%, rgba(72, 106, 246, 0.90) 93.97%, rgba(72, 106, 246, 0.90) 93.97%);
+}
+
 .main-text-title {
   position: relative;
 }
 
+.main-text-title-employer {
+  text-align: center;
+  z-index: 1;
+}
+
 h1 {
   color: #180e73;
+}
+
+.h1 {
+  max-width: none;
+  color: white;
+  font-size: 64px;
+  line-height: 76px;
 }
 
 .h2 {
@@ -258,6 +303,20 @@ h1 {
   top: 220px;
   left: 80px;
   gap: 32px;
+}
+
+.text-section-employer {
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform-style: preserve-3d;
+}
+
+.main-section-description {
+  width: 100%;
+  margin-top: 30px;
+  color: white;
+  font-size: 16px;
+  line-height: 26px;
 }
 
 .how-text-section {
@@ -419,6 +478,16 @@ h1 {
   padding-bottom: 104px;
 }
 
+.desktop-container-hiring {
+  display: flex;
+  max-width: 1440px;
+  margin: auto;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 64px;
+  padding-bottom: 104px;
+}
+
 .packages-display {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -505,6 +574,10 @@ h1 {
   margin-bottom: 40px;
 }
 
+.qna-header {
+  width: min-content;
+}
+
 .q-selection {
   padding-top: 24px;
   padding-bottom: 20px;
@@ -544,6 +617,12 @@ h1 {
   position: absolute;
   top: -24px;
   right: 8px;
+}
+
+.new-sign-employer {
+  position: absolute;
+  top: -24px;
+  left: 108px;
 }
 
 .red-asterix-candidates {
@@ -762,6 +841,10 @@ h1 {
     padding: 8px;
   }
 
+  .heading-paragraph-employer {
+    text-align: initial;
+  }
+
   .benefits {
     display: flex;
     flex-direction: column;
@@ -774,10 +857,11 @@ h1 {
 
   #new-sign {
     margin-left: 0;
-    top: 16px;
-    right: 35%;
+    /*top: 16px;*/
+    right: 24%;
     padding: 0;
   }
+
 
   .packages-display {
     text-align: -webkit-center;
@@ -786,6 +870,11 @@ h1 {
 
   .qna-description {
     margin-top: 0;
+    text-align: center;
+  }
+
+  .qna-header {
+    width: initial;
     text-align: center;
   }
 
@@ -844,7 +933,6 @@ h1 {
     display: block;
   }
 
-
   .burger-menu {
     display: block;
     padding: 12px 16px;
@@ -863,6 +951,13 @@ h1 {
 
   .footer-socials {
     gap: 8px;
+  }
+
+  .red-asterix-employer,
+  .red-asterix-candidates {
+    position: absolute;
+    right: 0;
+    top: -18px;
   }
   
 }
