@@ -761,6 +761,22 @@ h1 {
     z-index: 1;
   }
 
+  .h1-employer {
+    text-align: left;
+  }
+
+  .main-section-description-employer {
+    width: 100%;
+    margin-top: 0;
+    color: white;
+    font-size: 16px;
+  }
+
+  #red-highlight-main {
+    position: relative;
+    bottom: 0;
+    right: 0;
+  }
 
   .main {
     margin-top: 0;
@@ -802,6 +818,9 @@ h1 {
     display: none;
   }
 
+  .main-employer {
+    height: 775px;
+  }
 
   .img-section {
     text-align: -webkit-center;
@@ -810,6 +829,14 @@ h1 {
   #lp-main {
     display: none;
     visibility: hidden;
+  }
+
+  #lp-main-candidate {
+    position: absolute;
+    bottom: -32px;
+    width: 442px;
+    height: 453px;
+    top: 50%;
   }
 
   .coin-img {
