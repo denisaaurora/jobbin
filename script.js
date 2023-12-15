@@ -33,4 +33,13 @@ function redirectToIndex() {
     window.location.href = "/"
 }
 
+function toggleMobileNav() {
+    window.getComputedStyle(document.querySelector(".menu-cta")).display
+
+    if(window.getComputedStyle(document.querySelector(".menu-cta")).display === "none")
+        document.querySelector(".menu-cta").style.display = "flex"
+    else
+        document.querySelector(".menu-cta").style.display = "none"
+}
+
 document.addEventListener("DOMContentLoaded", setupDropDowns)

@@ -26,6 +26,11 @@
   font-size: 16px;
 }
 
+.menu-cta {
+  display: flex;
+}
+
+
 h1 {
   font-size: 50px;
 }
@@ -188,10 +193,6 @@ h2 {
 
 .menus:hover {
   text-decoration: underline;
-}
-
-.menu-cta {
-  display: flex;
 }
 
 .employer-btn {
@@ -869,14 +870,13 @@ h1 {
   .main-section-description-employer {
     width: 100%;
     margin-top: 0;
-    color: white;
-    font-size: 16px;
+    font-size: 14px;
   }
 
-  #red-highlight-main {
-    position: relative;
-    bottom: 0;
-    right: 0;
+  .blue-section #red-highlight-main {
+    position: absolute;
+    bottom: -8px;
+    right: 212px;
   }
 
   .main {
@@ -916,11 +916,29 @@ h1 {
   }
 
   .menu-cta {
+    width: 100%;
+    margin-top: 78px;
     display: none;
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: start;
+  }
+  .menus-links {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+    align-items: start;
   }
 
-  .main-employer {
-    height: 775px;
+  .burger-menu {
+    position: absolute;
+    right: 16px;
+    top: 12px;
+  }
+
+  .nav-link {
+    margin-bottom: 10px;
   }
 
   .img-section {
@@ -1121,6 +1139,46 @@ h1 {
 
   .get-a-job-text {
     margin-top: 32px;
+  }
+
+  .menu {
+    min-height: 80px;
+  }
+
+  .logo {
+    position: absolute;
+    left: 16px;
+    top: 24px;
+  }
+
+  .menu-cta {
+    display: none;
+  }
+
+  .about-company-section {
+    display: none;
+  }
+
+  .blue-section #lp-main-circle-mobile {
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    bottom: 0;
+    display: block;
+  }
+
+  .blue-section #lp-main-circle {
+    display: none;
+  }
+
+
+  .blue-section #lp-main-mobile {
+    position: relative;
+    z-index: 2;
+  }
+
+  #lp-main-candidate {
+    display: none;
   }
   
 }
