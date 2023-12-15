@@ -261,7 +261,7 @@ h1 {
   color: #180e73;
 }
 
-.h1 {
+.h1-employer {
   max-width: none;
   color: white;
   font-size: 64px;
@@ -311,7 +311,7 @@ h1 {
   transform-style: preserve-3d;
 }
 
-.main-section-description {
+.main-section-description-employer {
   width: 100%;
   margin-top: 30px;
   color: white;
