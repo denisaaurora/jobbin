@@ -479,13 +479,9 @@ h1 {
 }
 
 .desktop-container-hiring {
-  display: flex;
-  max-width: 1440px;
-  margin: auto;
-  padding-left: 80px;
-  padding-right: 80px;
-  padding-top: 64px;
-  padding-bottom: 104px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 200px;
 }
 
 .packages-display {
