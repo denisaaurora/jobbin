@@ -22,6 +22,10 @@
 
 /* TODO: check all font sizes again and put them here, for mobile too */
 /* font size desktop */
+
+#contact {
+  margin-bottom: 60px;
+}
 .menus {
   font-size: 16px;
 }
@@ -84,6 +88,58 @@ h2 {
 .hero-blue.img-section {
   margin-top: 32px !important;
 
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  max-width: 630px;
+  margin: auto;
+}
+
+.jobbin-input {
+  margin-top: 64px;
+  border: none;
+  border-bottom: 1px solid #C7C7C8;
+  font-size: 16px;
+  font-family: Poppins-light;
+  font-weight: 400;
+  outline: none;
+  resize: none;
+}
+
+.jobbin-input:not(:first-of-type) {
+  margin-top: 24px;
+}
+
+.consent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jobbin-checkbox {
+  margin-right: 12px;
+}
+
+.inputs-cta {
+  display: flex;
+  max-width: 630px;
+  margin: auto;
+  margin-top: 32px;
+}
+
+.download-btn.contact {
+  width: fit-content;
+  text-wrap: nowrap;
+  margin-top: 0;
+}
+
+.grey-text.contact {
+  width: 100%;
+  text-wrap: wrap;
+  margin-right: 24px;
+ 
 }
 
 /*.bg-image {*/
@@ -1266,5 +1322,18 @@ h1 {
 
   .panels {
     order: 2;
+  }
+  
+  .contact-img {
+    width: 100%;
+  }
+
+  .inputs-cta {
+    flex-direction: column;
+  }
+
+  .download-btn.contact {
+    width: 100%;
+    margin-top: 24px;
   }
 }
