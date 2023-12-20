@@ -1255,4 +1255,8 @@ h1 {
   .employer-candidate1 {
     right: 190px !important;
   }
+
+  .panels {
+    order: 2;
+  }
 }
