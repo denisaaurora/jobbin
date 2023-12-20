@@ -83,7 +83,7 @@ h2 {
 
 .hero-blue.img-section {
   margin-top: 32px !important;
-  
+
 }
 
 /*.bg-image {*/
@@ -798,7 +798,7 @@ h1 {
 }
 
 .blue-section #red-highlight-main {
-  bottom:-16px; 
+  bottom:-16px;
   right: 50px;
 }
 
@@ -808,6 +808,16 @@ h1 {
 
 .blue-section .text-section-employer {
   max-width: 500px;
+}
+
+#lp-main-elipse-mobile {
+  display: none;
+  visibility: hidden;
+}
+
+#lp-main-white-elipse-mobile {
+  display: none;
+  visibility: hidden;
 }
 
 @media only screen and (max-width: 500px) {
@@ -968,6 +978,13 @@ h1 {
     visibility: visible;
   }
 
+  .hero-icecream #lp-main-mobile {
+    display: block;
+    visibility: visible;
+    width: 100%;
+    margin-top: 28px;
+  }
+
   .coin-img-mobile {
     display: block;
     visibility: visible;
@@ -1019,7 +1036,7 @@ h1 {
     display: flex;
     flex-direction: column;
   }
-  
+
   #new-sign {
     margin-left: 0;
     /*top: 16px;*/
@@ -1087,7 +1104,7 @@ h1 {
     grid-column: span 2;
   }
 
-  .icons-prt { 
+  .icons-prt {
     padding-top: 50px;
     padding-bottom: 50px;
   }
@@ -1180,5 +1197,22 @@ h1 {
   #lp-main-candidate {
     display: none;
   }
-  
+
+  #lp-main-elipse-mobile {
+    visibility: visible;
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    bottom: 0;
+    display: block;
+  }
+
+  #lp-main-white-elipse-mobile {
+    visibility: visible;
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    bottom: 0;
+    display: block;
+  }
 }
