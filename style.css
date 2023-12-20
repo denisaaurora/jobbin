@@ -359,12 +359,6 @@ h1 {
   gap: 32px;
 }
 
-.text-section-employer {
-  opacity: 1;
-  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-  transform-style: preserve-3d;
-}
-
 .main-section-description-employer {
   width: 100%;
   margin-top: 30px;
@@ -530,6 +524,15 @@ h1 {
   padding-right: 80px;
   padding-top: 64px;
   padding-bottom: 104px;
+}
+
+.desktop-container-employer {
+  max-width: 1440px;
+  margin: auto;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 64px;
+  padding-bottom: 0;
 }
 
 .desktop-container-hiring {
@@ -785,6 +788,10 @@ h1 {
   height: fit-content;
 }
 
+#lp-main {
+  z-index: 2;
+}
+
 .desktop-container.blue {
   padding-bottom: 0 !important;
 }
@@ -802,12 +809,16 @@ h1 {
   right: 50px;
 }
 
-.blue-section .main-text-title-employer {
-  position: relative;
+.employer-candidate {
+  right: 232px !important;
 }
 
-.blue-section .text-section-employer {
-  max-width: 500px;
+.employer-candidate1 {
+  right: 136px !important;
+}
+
+.blue-section .main-text-title-employer {
+  position: relative;
 }
 
 #lp-main-elipse-mobile {
@@ -818,6 +829,11 @@ h1 {
 #lp-main-white-elipse-mobile {
   display: none;
   visibility: hidden;
+}
+
+.employer {
+  /*white-space: nowrap;*/
+  margin-top: 200px;
 }
 
 @media only screen and (max-width: 500px) {
@@ -848,6 +864,7 @@ h1 {
 
   .h1-employer {
     text-align: start;
+    line-height: initial;
   }
 
   .main {
@@ -889,7 +906,7 @@ h1 {
 
   .blue-section #red-highlight-main {
     position: absolute;
-    bottom: -8px;
+    /*bottom: -8px;*/
     right: 212px;
   }
 
@@ -923,6 +940,13 @@ h1 {
     padding-right: 16px;
     padding-top: 24px;
     padding-bottom: 24px;
+  }
+
+  .desktop-container-employer {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 24px;
+    padding-bottom: 0;
   }
 
   .desktop-container-hiring {
@@ -1218,5 +1242,17 @@ h1 {
     transform: translateX(50%);
     bottom: 0;
     display: block;
+  }
+
+  .employer {
+    margin-top: initial;
+  }
+
+  .employer-candidate {
+    right: 232px !important;
+  }
+
+  .employer-candidate1 {
+    right: 190px !important;
   }
 }
