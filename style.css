@@ -850,6 +850,10 @@ h1 {
     text-align: start;
   }
 
+  .main {
+    margin-bottom: 58px;
+  }
+
   .h2,
   .h2-packages,
   .h2-partners,
