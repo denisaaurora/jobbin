@@ -23,6 +23,10 @@
 /* TODO: check all font sizes again and put them here, for mobile too */
 /* font size desktop */
 
+.i4ewOd-pzNkMb-tJHJj {
+  display: none !important;
+}
+
 #contact {
   margin-bottom: 60px;
 }
@@ -596,6 +600,7 @@ h1 {
   grid-template-columns: repeat(2, 1fr);
   gap: 200px;
 }
+
 
 .packages-display {
   display: grid;
