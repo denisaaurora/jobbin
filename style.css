@@ -689,7 +689,7 @@ h1 {
 }
 
 .qna-header {
-  width: min-content;
+  /*width: min-content;*/
 }
 
 .q-selection {
