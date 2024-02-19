@@ -673,7 +673,7 @@ h1 {
 
 .partners-icons {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   gap: 32px;
   margin-top: 48px;
 }
@@ -682,6 +682,11 @@ h1 {
   padding-top: 86px;
   padding-bottom: 86px;
   text-align: center;
+}
+
+.parteners-img {
+  width: 100%;
+  height: 100%;
 }
 
 .qna-description {
