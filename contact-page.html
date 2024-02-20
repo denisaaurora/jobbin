@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Jobbin</title>
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<script src="./script.js"></script>
+
+<head></head>
+
+<body class="body">
+    <div class="navbar">
+        <div class="menu">
+            <div class="logo" onclick="redirectToIndex()">
+                <img class="nav-icon" src="./images/jobbin-footer-icon.svg" alt="jobbin-monogram-icon-logo"/>
+                <img class="nav-logo" src="./images/jobbin-logo-nav.svg" alt="jobbin-logo-text"/>
+                <img class="nav-logo-mobile" src="./images/jobbin-logo-mobile.png" alt="jobin-logo-mobile"/>
+            </div>
+            <div class="menu-cta">
+                <div class="menus-links">
+                    <a href="./index.html#how-section" class="menus nav-link">Cum Functioneaza</a>
+                    <a href="./index.html#candidates-benefits" class="menus nav-link">Candidati</a>
+                    <a href="./index.html#employer-benefits" class="menus nav-link">Angajator</a>
+                    <a href="./index.html#packages" class="menus nav-link">Preturi</a>
+                </div>
+                <div class="buttons-links">
+                    <button class="employer-btn">Login</button>
+                    <button class="download-btn-nav">Descarca Aplicatia</button>
+                </div>
+            </div>
+            <div class="burger-menu" onclick="toggleMobileNav()">
+                <img src="./images/burger-menu.svg"/>
+            </div>
+        </div>
+    </div>
+
+    <div id="landing">
+
+
+
+
+        <section class="white-section" id="contact">
+            <iframe class="contact-img" style="display:flex; margin: auto; border: none;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d173904.27506920864!2d21.772637245547237!3d47.07447659669879!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x474647e368762353%3A0x1b55a486d65d5344!2sOradea%2C%20Romania!5e0!3m2!1sen!2suk!4v1703159979080!5m2!1sen!2suk" width="1440" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  
+                <div class="desktop-container" style="padding-top: 0px; ">
+                      <div class="contact-title" style="text-align: center;margin-top: 32px;">
+                        <h1 class="title-style">
+                            Trimite-ne un<br>mesaj?
+                         </h1>
+                        <img  src="./images/contact-red-img.png" />
+                    </div>
+
+
+                <div class="inputs">
+                    <input placeholder="Name" type="text" class="jobbin-input"/>
+                    <input placeholder="Email" type="email" class="jobbin-input"/>
+
+                    <textarea placeholder="Message" class="jobbin-input" aria-setsize="50"></textarea>
+                </div>
+
+                <div class="inputs-cta">
+                    <div class="consent">
+                        <input type="checkbox" class="jobbin-checkbox"/>
+                        <p class="grey-text contact" style="font-family: Poppins-light; font-size: 14px;">I consent to the processing of my data in accordance with the <span style="text-decoration: underline; font-family: Poppins-light; font-size:14px;">Privacy Policy</span> which I have read and accept.</p>
+                    </div>
+                    <button class="download-btn contact">Trimite Mesaj</button>
+                </div>
+            </div>
+
+        </section>
+
+
+    </div>
+
+    <footer class="footer-container">
+        <div class="footer-logo">
+            <div class="jobbin-imgs">
+                <img src="./images/jobbin-footer-icon.png">
+                <img src="./images/jobbin-logo-footer.png">
+            </div>
+            <div class="footer-main">
+                <div class="footer-navigate-links">
+                    <div class="f-nav-links">
+                        <a class="text-link" href="./employer-page.html">Angajator</a>
+                        <a class="text-link" href="./candidate-page.html">Candidat</a>
+                        <a class="text-link" href="./about-page.html">Despre Noi</a>
+                        <a class="text-link" href="./contact-page.html">Contact</a>
+                    </div>
+                    <div class="footer-socials">
+                        <a href="#"><img src="./images/instagram-logo-light.svg"></a>
+                        <a href="#"><img src="./images/facebook-logo-light.svg"></a>
+                    </div>
+                </div>
+                <div class="footer-line">
+                </div>
+                <div class="footer-tos">
+                    <div class="footer-tos-links">
+                        <a class="text-link" href="./tc.html">Privacy policy</a>
+                        <a class="text-link" href="./tc.html">Terms of use</a>
+                        <a class="text-link" href="./tc.html">GDPR</a>
+                        <a class="text-link" href="./tc.html">Cookies</a>
+                    </div>
+                    <div class="watermark">
+                        <p>© Jobbin, 2024</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+</footer>
+</body>
+
+</html>

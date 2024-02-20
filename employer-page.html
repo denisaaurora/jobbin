@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Jobbin</title>
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<script src="./script.js"></script>
+
+<head></head>
+
+<body class="body">
+    <div class="navbar">
+        <div class="menu">
+            <div class="logo" onclick="redirectToIndex()">
+                <img class="nav-icon" src="./images/jobbin-footer-icon.svg" alt="jobbin-monogram-icon-logo"/>
+                <img class="nav-logo" src="./images/jobbin-logo-nav.svg" alt="jobbin-logo-text"/>
+                <img class="nav-logo-mobile" src="./images/jobbin-logo-mobile.png" alt="jobin-logo-mobile"/>
+            </div>
+            <div class="menu-cta">
+                <div class="menus-links">
+                    <a href="./index.html#how-section" class="menus nav-link">Cum Functioneaza</a>
+                    <a href="./index.html#candidates-benefits" class="menus nav-link">Candidati</a>
+                    <a href="./index.html#employer-benefits" class="menus nav-link">Angajator</a>
+                    <a href="./index.html#packages" class="menus nav-link">Preturi</a>
+                </div>
+                <div class="buttons-links">
+                    <button class="employer-btn">Login</button>
+                    <button class="download-btn-nav">Descarca Aplicatia</button>
+                </div>
+            </div>
+            <div class="burger-menu" onclick="toggleMobileNav()">
+                <img src="./images/burger-menu.svg"/>
+            </div>
+        </div>
+    </div>
+
+    <div id="landing">
+
+        <section class="blue-section">
+            <div class="desktop-container-employer">
+                <div id="hero">
+                    <div class="main-employer">
+                        <div class="text-section-employer">
+                            <div class="main-text-title-employer">
+                                <h1 class="h1-employer title-style employer">
+                                    Easiest way to work = Usureaza-ti munca cu ajutorul Jobbin.
+                                </h1>
+                                <img class="employer-candidate1" id="red-highlight-main" src="./images/red-highlight.png"/>
+                            </div>
+                            <p class="main-section-description-employer light-font extra-page-style-description white-text">
+                                Da, cu Jobbin poți recruta potrivit pentru nevoile tale. Platforma oferă o
+                                serie de instrumente și funcții care te pot ajuta să găsești profesionisti
+                                calificați și cu experiență.
+                            </p>
+                        </div>
+
+                        <div class="img-section hero-blue">
+                            <img id="lp-main" src="./images/employer_hero_guy.png" alt="main-guy"/>
+                            <img id="lp-main-circle" src="images/main-circle.svg" alt="main-circle">
+                            <img id="lp-main-mobile" src="./images/eployer-guy-mobile.png"/>
+                            <img id="lp-main-circle-mobile" src="./images/lp_main_circle_mobile.png"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="white-section">
+            <div class="desktop-container">
+                <div class="how-section">
+                    <div class="how-text-section">
+                        <h1 class="title-style">
+                            Cum functioneaza? <span id="red-spikes"></span>
+                        </h1>
+                        <p class="heading-paragraph grey-text light-font">
+                            Rubrica Angajator Jobbin permite companiilor să își promoveze anunțurile de
+                            angajare către o audiență largă de candidați interesați. Iată cum funcționează:
+                        </p>
+                    </div>
+
+                    <div class="frames">
+                        <div class="frame-one">
+                            <img src="./images/thinking-emoji.png" alt="thinking-emoji circle highlight"/>
+                            <h3 class="h3 title-style">
+                                Crearea unui cont
+                            </h3>
+                            <p class="frames-description grey-text light-font">
+                                Companiile trebuie să creeze un cont Jobbin gratuit și
+                                să completeze profilul companiei cu informații despre industria, locația și
+                                cultura companiei.
+                            </p>
+                        </div>
+                        <div class="frame-two">
+                            <img src="./images/guy-emoji.png" alt="guy-emoji circle highlight"/>
+                            <h3 class="h3 title-style">
+                                Publicarea anunțurilor de angajare
+                            </h3>
+                            <p class="frames-description grey-text light-font">
+                                Companiile pot publica anunțuri de
+                                angajare detaliate, incluzând descrierea postului, cerințele și beneficiile.
+                            </p>
+                        </div>
+                        <div class="frame-three">
+                            <img src="./images/star-eyes-emoji.png" alt="emoji-with-star-eyes circle highlight"/>
+                            <h3 class="h3 title-style">
+                                Ia legatura cu candidatul
+                            </h3>
+                            <p class="frames-description grey-text light-font">
+                                Dacă angajatorul este mulțumit de
+                                performanța candidatului la interviu, tot ce rămâne de făcut este sa
+                                luati legatura telefonic pentru a stabili un program pentru prima zi de lucru.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="btn">
+                        <button class="get-started-btn">Get started</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="grey-section" id="features">
+            <div class="desktop-container">
+                <div class="benefits">
+                    <div class="panels">
+                        <div class="features-list">
+                            <div class="dropdowns">
+                                <div class="dropdown-listing">
+                                    <div class="dropdown-title">
+                                        <p class="title-style">Eficiența</p>
+                                        <img class="carret grey" src="./images/carret-down.svg"/>
+                                    </div>
+                                    <p class="dropdown-text grey-text light-font">
+                                        Aplicațiile inovatoare de angajare pot ajuta la automatizarea sarcinilor repetitive,
+                                        cum ar fi filtrarea CV-urilor și programarea interviurilor. Acest lucru poate
+                                        economisi timp și resurse firmelor sau societăților.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="dropdowns">
+                                <div class="dropdown-listing">
+                                    <div class="dropdown-title">
+                                        <p class="title-style">Eficacitate</p>
+                                        <img class="carret grey" src="./images/carret-down.svg"/>
+                                    </div>
+                                    <p class="dropdown-text grey-text light-font">
+                                        Aplicațiile inovatoare de angajare pot ajuta la identificarea candidaților cei mai
+                                        potriviți pentru un anumit post. Acest lucru poate duce la o reducere a costurilor
+                                        de angajare și la o creștere a satisfacției angajaților.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="dropdowns">
+                                <div class="dropdown-listing">
+                                    <div class="dropdown-title">
+                                        <p class="title-style">Personalizarea</p>
+                                        <img class="carret grey" src="./images/carret-down.svg"/>
+                                    </div>
+                                    <p class="dropdown-text grey-text light-font">
+                                        Aplicațiile inovatoare de angajare pot fi personalizate pentru a satisface nevoile
+                                        specifice ale fiecărei firme sau societăți. Acest lucru poate duce la o experiență
+                                        de angajare mai bună atât pentru candidați, cât și pentru firme sau societăți.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="dropdowns">
+                                <div class="dropdown-listing">
+                                    <div class="dropdown-title">
+                                        <p class="title-style">Datele</p>
+                                        <img class="carret grey" src="./images/carret-down.svg"/>
+                                    </div>
+                                    <p class="dropdown-text grey-text light-font">
+                                        Aplicațiile inovatoare de angajare pot colecta date despre candidați și despre
+                                        procesul de angajare. Aceste date pot fi utilizate pentru a îmbunătăți procesul de
+                                        angajare în viitor.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="dropdowns">
+                                <div class="dropdown-listing">
+                                    <div class="dropdown-title">
+                                        <p class="title-style">Reputatia</p>
+                                        <img class="carret grey" src="./images/carret-down.svg"/>
+                                    </div>
+                                    <p class="dropdown-text grey-text light-font">
+                                        Firmele sau societățile care folosesc aplicații inovatoare de angajare pot crea o
+                                        imagine de companie modernă și orientată spre viitor. Acest lucru poate atrage mai
+                                        mulți candidați calificați.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="text-benefits">
+                        <div class="benefits-employer-title">
+                            <img class="red-asterix-candidates" src="./images/red-asterix.png"/>
+                            <h2 class="h2 title-style">Features</h2>
+                        </div>
+                        <p class="heading-paragraph light-font">
+                            5 beneficii pe care firmele sau societățile le au când folosesc o aplicație inovativă în
+                            procesul de angajare
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <section class="white-section" id="hiring">
+            <div class="desktop-container">
+                <div class="desktop-container-hiring">
+                    <div class="header-text">
+                        <div class="get-a-job-text">
+                            <img class="new-sign-employer" src="./images/new-sign.png"/>
+                            <h2 class="h2-packages title-style">Recruteaza acum</h2>
+                            <p class="heading-paragraph-employer grey-text light-font">
+                                Urmând aceste sfaturi, poți folosi Jobbin pentru a recruta candidații potriviți
+                                pentru nevoile tale.
+                            </p>
+                            <button class="learn-more-btn">Learn more</button>
+                        </div>
+                    </div>
+
+                    <div class="coin-hiring-section">
+                        <img class="coin-img" src="./images/coin-employer-page.svg">
+                        <img class="coin-img-mobile" src="./images/coin-hiring-mobile.png">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer-container">
+        <div class="footer-logo">
+            <div class="jobbin-imgs">
+                <img src="./images/jobbin-footer-icon.png">
+                <img src="./images/jobbin-logo-footer.png">
+            </div>
+            <div class="footer-main">
+                <div class="footer-navigate-links">
+                    <div class="f-nav-links">
+                        <a class="text-link" href="./employer-page.html">Angajator</a>
+                        <a class="text-link" href="./candidate-page.html">Candidat</a>
+                        <a class="text-link" href="./about-page.html">Despre Noi</a>
+                        <a class="text-link" href="./contact-page.html">Contact</a>
+                    </div>
+                    <div class="footer-socials">
+                        <a href="#"><img src="./images/instagram-logo-light.svg"></a>
+                        <a href="#"><img src="./images/facebook-logo-light.svg"></a>
+                    </div>
+                </div>
+                <div class="footer-line">
+                </div>
+                <div class="footer-tos">
+                    <div class="footer-tos-links">
+                        <a class="text-link" href="./tc.html">Privacy policy</a>
+                        <a class="text-link" href="./tc.html">Terms of use</a>
+                        <a class="text-link" href="./tc.html">GDPR</a>
+                        <a class="text-link" href="./tc.html">Cookies</a>
+                    </div>
+                    <div class="watermark">
+                        <p>© Jobbin, 2024</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+</footer>
+</body>
+
+</html>
