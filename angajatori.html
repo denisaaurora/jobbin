@@ -9,8 +9,6 @@
 <head></head>
 
 <body class="body">
-<img class="bg-lines" src="./images/bg-lines.png"/>
-
 <div class="navbar">
     <div class="menu">
         <div class="logo" onclick="redirectToIndex()">
@@ -20,14 +18,14 @@
         </div>
         <div class="menu-cta">
             <div class="menus-links">
-                <a href="#how-section" class="menus nav-link">Cum Functioneaza</a>
-                <a href="" class="menus nav-link">Candidati</a>
-                <a href="" class="menus nav-link">Angajator</a>
-                <a href="#packages" class="menus nav-link">Preturi</a>
+                <a href="./index.html#how-section" class="menus nav-link">Cum Functioneaza</a>
+                <a href="./index.html#candidates-benefits" class="menus nav-link">Candidati</a>
+                <a href="./index.html#employer-benefits" class="menus nav-link">Angajator</a>
+                <a href="./index.html#packages" class="menus nav-link">Preturi</a>
             </div>
             <div class="buttons-links">
                 <button class="employer-btn">Logare</button>
-                <button class="download-btn-nav" id="download-app">Descarca Aplicatia</button>
+                <button id="download-app" class="download-btn-nav">Descarca Aplicatia</button>
             </div>
         </div>
         <div class="burger-menu" onclick="toggleMobileNav()">
@@ -38,89 +36,90 @@
 
 <div id="landing">
 
-    <section class="white-section">
-        <div class="desktop-container">
+    <section class="blue-section">
+        <div class="desktop-container-employer">
             <div id="hero">
-                <div class="main">
-                    <div class="text-section">
-                        <div class="main-text-title">
-                            <h1 class="h1 title-style">
-                                Gasirea unui job, mai simplu si usor
+                <div class="main-employer">
+                    <div class="text-section-employer">
+                        <div class="main-text-title-employer">
+                            <h1 class="h1-employer title-style employer">
+                                Usureaza-ti munca cu ajutorul Jobbin.
                             </h1>
-                            <img id="red-highlight-main" src="./images/red-highlight.png"/>
+                            <img class="employer-candidate1" id="red-highlight-main" src="./images/red-highlight.png"/>
                         </div>
-                        <p class="main-section-description grey-text light-font">
-                            Beneficiaza de avantajele platformei si aplicatiei noastre pentru a te angaja sau pentru a
-                            cauta candidati potriviti cerintelor tale.
-                        </p>
-                        <button class="download-btn">Descarca Aplicatia</button>
-                    </div>
-
-                    <div class="img-section hero-icecream">
-                        <img id="lp-main" src="./images/hero-main-guy-icecream.png" alt="main-guy-icecream"/>
-                        <img id="lp-main-mobile" src="./images/hero-main-guy-icecream.png"
-                             alt="main-guy-icecream-mobile"/>
-                        <!--                            <img id="lp-main-elipse-mobile" src="./images/elipse-main.svg" alt="main-elipse-mobile"/>-->
-                        <!--                            <img id="lp-main-white-elipse-mobile" src="./images/white-elipse-main.svg" alt="main-white-elipse-mobile"/>-->
-                    </div>
-                </div>
-                <div class="how-section" id="how-section">
-                    <div class="how-text-section">
-                        <h1 class="title-style">
-                            Cum functioneaza? <span id="red-spikes"></span>
-                        </h1>
-                        <p class="heading-paragraph grey-text light-font">
-                            Aplica pentru jobul dorit in mai putin de 30 de secunde, fara batai de cap. Descopera
-                            pozitiile disponibile si aplica rapid si usor printr-un scurt video sau clasic, printr-un
-                            CV.
+                        <p class="main-section-description-employer grey-text light-font">
+                            Iti oferim un mod unic de recrutare printr-o introducere VIDEO a candidatului. Astfel, poti
+                            sa economisesti timp, fara a mai invita candidatul la un interviu fizic.
                         </p>
                     </div>
 
-                    <div class="frames">
-                        <div class="frame-one">
-                            <img src="./images/thinking-emoji.png" alt="thinking-emoji circle highlight"/>
-                            <h3 class="h3 title-style">
-                                Cauta printre locurile de munca disponibile
-                            </h3>
-                            <p class="frames-description grey-text light-font">
-                                In cadrul aplicatiei noastre poti sa gasesti locurile de munca disponibile, sa iti
-                                sortezi si sa filtrezi in functie de preferinte si sa alegi sa fii notificat in momentul
-                                in care apare un job nou.
-                            </p>
-                        </div>
-                        <div class="frame-two">
-                            <img src="./images/guy-emoji.png" alt="guy-emoji circle highlight"/>
-                            <h3 class="h3 title-style">
-                                Aplica folosind un scurt video sau CV
-                            </h3>
-                            <p class="frames-description grey-text light-font">
-                                Iti oferim un mod inovativ de a aplica pentru un loc de munca, printr-un singur video de
-                                maxim 30 de secunde in care iti poti exprima interesul fata de pozitia pentru care
-                                aplici. Dar se poate si clasic, printr-un CV.
-                            </p>
-                        </div>
-                        <div class="frame-three">
-                            <img src="./images/star-eyes-emoji.png" alt="emoji-with-star-eyes circle highlight"/>
-                            <h3 class="h3 title-style">
-                                Fii acceptat si ia contactul direct cu angajatorul
-                            </h3>
-                            <p class="frames-description grey-text light-font">
-                                Este foarte simplu, daca esti acceptat pentru un loc de munca, in aplicatia noastra poti
-                                lua legatura directa cu angajatorul pentru stabili detaliile locului de munca.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="btn">
-                        <a href="#download-app" class="get-started-btn">Descopera locurile de munca disponibile</a>
-                        <!--                        <button class="get-started-btn">Descopera locurile de munca disponibile</button>-->
+                    <div class="img-section hero-blue">
+                        <img id="lp-main" src="./images/employer_hero_guy.png" alt="main-guy"/>
+                        <img id="lp-main-circle" src="images/main-circle.svg" alt="main-circle">
+                        <img id="lp-main-mobile" src="./images/eployer-guy-mobile.png"/>
+                        <img id="lp-main-circle-mobile" src="./images/lp_main_circle_mobile.png"/>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <section class="white-section">
+        <div class="desktop-container">
+            <div class="how-section">
+                <div class="how-text-section">
+                    <h1 class="title-style">
+                        Cum pot sa angajez? <span id="red-spikes"></span>
+                    </h1>
+                    <p class="heading-paragraph grey-text light-font">
+                        Procesul este unul foarte simplu, postezi pozitia pentru care doresti sa angajezi, alegi
+                        aplicantul potrivit si il poti contacta direct.
+                    </p>
+                </div>
 
-    <section class="grey-section" id="candidates-benefits">
+                <div class="frames">
+                    <div class="frame-one">
+                        <img src="./images/thinking-emoji.png" alt="thinking-emoji circle highlight"/>
+                        <h3 class="h3 title-style">
+                            Creeaza un cont
+                        </h3>
+                        <p class="frames-description grey-text light-font">
+                            Iti poti crea un cont de angajator in mai putin de 1 minut folosind adresa ta de email sau
+                            contul Google. Ulterior trebuie sa alegi industria si locatia pentru care doresti sa
+                            recrutezi.
+                        </p>
+                    </div>
+                    <div class="frame-two">
+                        <img src="./images/guy-emoji.png" alt="guy-emoji circle highlight"/>
+                        <h3 class="h3 title-style">
+                            Publicarea anunțurilor de angajare
+                        </h3>
+                        <p class="frames-description grey-text light-font">
+                            Completeaza titlul, locatia si categoria pentru care doresti sa recrutezi, alaturi de
+                            salariu (optional), data inceperii si o descriere.
+                        </p>
+                    </div>
+                    <div class="frame-three">
+                        <img src="./images/star-eyes-emoji.png" alt="emoji-with-star-eyes circle highlight"/>
+                        <h3 class="h3 title-style">
+                            Ia legatura cu candidatul
+                        </h3>
+                        <p class="frames-description grey-text light-font">
+                            Dupa publicarea anuntului, vei primi o notificare in momentul in care apare un nou candidat.
+                            Poti vizualiza aplicatia si sa iei o decizie daca doresti sau nu sa contactezi acel
+                            candidat.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="btn">
+                    <a href="#download-app" class="get-started-btn">Descopera locurile de munca disponibile</a>
+<!--                    <button class="get-started-btn">Get started</button>-->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="grey-section" id="features">
         <div class="desktop-container">
             <div class="benefits">
                 <div class="panels">
@@ -128,12 +127,13 @@
                         <div class="dropdowns">
                             <div class="dropdown-listing">
                                 <div class="dropdown-title">
-                                    <p class="title-style">Accesibilitate</p>
+                                    <p class="title-style">Eficiența</p>
                                     <img class="carret grey" src="./images/carret-down.svg"/>
                                 </div>
                                 <p class="dropdown-text grey-text light-font">
-                                    Ai posibilitatea sa accesezi aplicatia noastra atat din Apple Store cat si din
-                                    Google Play.
+                                    Aplicațiile inovatoare de angajare pot ajuta la automatizarea sarcinilor repetitive,
+                                    cum ar fi filtrarea CV-urilor și programarea interviurilor. Acest lucru poate
+                                    economisi timp și resurse firmelor sau societăților.
                                 </p>
                             </div>
                         </div>
@@ -141,13 +141,13 @@
                         <div class="dropdowns">
                             <div class="dropdown-listing">
                                 <div class="dropdown-title">
-                                    <p class="title-style">Mod unic si rapid de aplicare</p>
+                                    <p class="title-style">Eficacitate</p>
                                     <img class="carret grey" src="./images/carret-down.svg"/>
                                 </div>
                                 <p class="dropdown-text grey-text light-font">
-                                    Este foarte usor, in cadrul aplicatiei noastre iti oferim un mod unic si rapid de
-                                    aplicare pentru pozitiile dorite. Inregistreaza sau incarca un video cu tine si
-                                    aplica pentru pozitiile dorite.
+                                    Aplicațiile inovatoare de angajare pot ajuta la identificarea candidaților cei mai
+                                    potriviți pentru un anumit post. Acest lucru poate duce la o reducere a costurilor
+                                    de angajare și la o creștere a satisfacției angajaților.
                                 </p>
                             </div>
                         </div>
@@ -155,12 +155,13 @@
                         <div class="dropdowns">
                             <div class="dropdown-listing">
                                 <div class="dropdown-title">
-                                    <p class="title-style">Filtrare</p>
+                                    <p class="title-style">Personalizarea</p>
                                     <img class="carret grey" src="./images/carret-down.svg"/>
                                 </div>
                                 <p class="dropdown-text grey-text light-font">
-                                    Poti usor sa iti filtrezi si sortezi locurile de munca in functie de locatie, data
-                                    de incepere, remuneratia oferita.
+                                    Aplicațiile inovatoare de angajare pot fi personalizate pentru a satisface nevoile
+                                    specifice ale fiecărei firme sau societăți. Acest lucru poate duce la o experiență
+                                    de angajare mai bună atât pentru candidați, cât și pentru firme sau societăți.
                                 </p>
                             </div>
                         </div>
@@ -168,12 +169,13 @@
                         <div class="dropdowns">
                             <div class="dropdown-listing">
                                 <div class="dropdown-title">
-                                    <p class="title-style">Evidenta si Istoric</p>
+                                    <p class="title-style">Datele</p>
                                     <img class="carret grey" src="./images/carret-down.svg"/>
                                 </div>
                                 <p class="dropdown-text grey-text light-font">
-                                    Ai acces usor la evidenta joburilor aplicate, vezi istoricul joburilor efectuate si
-                                    poti recontacta angajatorii.
+                                    Aplicațiile inovatoare de angajare pot colecta date despre candidați și despre
+                                    procesul de angajare. Aceste date pot fi utilizate pentru a îmbunătăți procesul de
+                                    angajare în viitor.
                                 </p>
                             </div>
                         </div>
@@ -181,11 +183,13 @@
                         <div class="dropdowns">
                             <div class="dropdown-listing">
                                 <div class="dropdown-title">
-                                    <p class="title-style">Recenzii Angajatori</p>
+                                    <p class="title-style">Reputatia</p>
                                     <img class="carret grey" src="./images/carret-down.svg"/>
                                 </div>
                                 <p class="dropdown-text grey-text light-font">
-                                    Ai acces la un istoric si recenzii referitoare la angajatori, astfel te poti
+                                    Firmele sau societățile care folosesc aplicații inovatoare de angajare pot crea o
+                                    imagine de companie modernă și orientată spre viitor. Acest lucru poate atrage mai
+                                    mulți candidați calificați.
                                 </p>
                             </div>
                         </div>
@@ -195,13 +199,37 @@
                 <div class="text-benefits">
                     <div class="benefits-employer-title">
                         <img class="red-asterix-candidates" src="./images/red-asterix.png"/>
-                        <h2 class="h2 title-style">Beneficii Candidati</h2>
+                        <h2 class="h2 title-style">Features</h2>
                     </div>
                     <p class="heading-paragraph light-font">
-                        5 beneficii pe care le poti avea folosind aplicatia noastra in procesul de angajare
+                        5 beneficii pe care firmele sau societățile le au când folosesc o aplicație inovativă în
+                        procesul de angajare
                     </p>
                 </div>
 
+            </div>
+        </div>
+    </section>
+
+    <section class="white-section" id="hiring">
+        <div class="desktop-container">
+            <div class="desktop-container-hiring">
+                <div class="header-text">
+                    <div class="get-a-job-text">
+                        <img class="new-sign-employer" src="./images/new-sign.png"/>
+                        <h2 class="h2-packages title-style">Recruteaza acum</h2>
+                        <p class="heading-paragraph-employer grey-text light-font">
+                            Urmând aceste sfaturi, poți folosi Jobbin pentru a recruta candidații potriviți
+                            pentru nevoile tale.
+                        </p>
+                        <button class="learn-more-btn">Learn more</button>
+                    </div>
+                </div>
+
+                <div class="coin-hiring-section">
+                    <img class="coin-img" src="./images/coin-employer-page.svg">
+                    <img class="coin-img-mobile" src="./images/coin-hiring-mobile.png">
+                </div>
             </div>
         </div>
     </section>
@@ -448,158 +476,6 @@
             </div>
         </div>
     </section>
-
-    <section class="white-section">
-        <div class="desktop-container">
-            <div class="partners-main">
-                <div class="partners-heading">
-                    <h2 class="h2-partners title-style">Parteneri</h2>
-                    <img id="wavy-underline" src="./images/wavy-underline.png"/>
-                </div>
-                <p class="partners-description grey-text light-font">
-                    Aici gasiti o lista a partenerilor nostri, companii care impartasesc valorile noastre si care ofera
-                    produse si servicii de inalta calitate.
-                </p>
-            </div>
-
-            <div class="partners-icons">
-                <div class="prt-two-group">
-                    <div class=" icons-prt">
-                        <img class="parteners-img" src="./images/hanulPescarilor.png"/>
-                    </div>
-                    <div class=" icons-prt">
-                        <img class="parteners-img" src="./images/astoria.jpeg"/>
-                    </div>
-                </div>
-
-                <div class="prt-two-group">
-                    <div class=" icons-prt">
-                        <img class="parteners-img" src="./images/profilRivo.png"/>
-                    </div>
-                    <div class=" icons-prt">
-                        <img class="parteners-img" src="./images/logoAmbasador.png"/>
-                    </div>
-                </div>
-
-                <div class=" icons-prt prt-last">
-                    <img class="parteners-img" src="./images/beer-house-oradea.png"/>
-                </div>
-
-                <div class=" icons-prt prt-last">
-                    <img class="parteners-img" src="./images/majestic.jpeg"/>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="grey-section">
-        <div class="desktop-container">
-            <div class="qna-header">
-                <h2 class="title-style frequent-questions">Intrebari Frecvente</h2>
-                <p class="qna-description grey-text light-font">
-                    Aceasta rubrica poate fi o resursa valoroasa pentru orice persoana atât candidat cât și angajator
-                    interest. De asemenea, scopul principal este de a oferi informații și asistenta pentru ca
-                    utilizatorii sa gaseasca raspunsuri la întrebările lor rapid și ușor.
-                </p>
-            </div>
-
-            <div class="questions">
-                <div class="q-selection">
-                    <div class="dropdown-title">
-                        <h3 class="h3-qna title-style">Cum pot aplica pentru un loc de muncă?</h3>
-                        <img class="carret grey" src="./images/carret-down.svg"/>
-                    </div>
-                    <p class="dropdown-text grey-text light-font">
-                        Pentru a aplica pentru un loc de muncă pe platforma de angajare Jobbin, e necesar să creați un
-                        profil și să trimiteți un CV actualizat, care sa evidentieze cele mai relevante calificari
-                        pentru postul aferent. De asemenea, la solicitarea angajatorului, veți avea nevoie de un video
-                        de prezentare.
-                        Profilul dvs. ar trebui să includă informații despre experiența de lucru, abilități, educație
-                        sau studii absolvite.
-                        Câmpul aferent descrierii dvs. este indicat să conțină o scrisoare de intenție personalizată
-                        pentru fiecare loc de muncă pentru care aplicați și să ilustreze atât motivele pentru care
-                        sunteți interesat de post, cât și calificările necesare pe care le dobândiți.
-                    </p>
-                </div>
-                <div class="q-selection">
-                    <div class="dropdown-title">
-                        <h3 class="h3-qna title-style">Cum pot găsi locuri de muncă care să se potrivească experienței
-                            și abilităților mele?</h3>
-                        <img class="carret grey" src="./images/carret-down.svg"/>
-                    </div>
-                    <p class="dropdown-text grey-text light-font">
-                        Puteți găsi locuri de muncă care se potrivesc experienței și abilităților dvs. prin utilizarea
-                        filtrelor de căutare ale platformei de angajare. De exemplu, puteți filtra rezultatele căutării
-                        după industrie, locație, nivel de experiență și abilități. De asemenea, puteți vizualiza
-                        anunțurile de locuri de muncă în funcție de relevanță, salariu sau alte criterii.
-                    </p>
-                </div>
-                <div class="q-selection">
-                    <div class="dropdown-title">
-                        <h3 class="h3-qna title-style">Cum pot fi la curent cu cele mai recente locuri de muncă?</h3>
-                        <img class="carret grey" src="./images/carret-down.svg"/>
-                    </div>
-                    <p class="dropdown-text grey-text light-font">
-                        Puteți fi la curent cu cele mai recente locuri de muncă prin abonarea la buletinele informative
-                        ale platformei de angajare sau prin urmărirea companiilor și industriei care vă interesează. De
-                        asemenea, puteți crea alerte de locuri de muncă care să vă notifice atunci când apare un loc de
-                        muncă nou care se potrivește criteriilor dvs. de căutare.
-                    </p>
-                </div>
-                <div class="q-selection">
-                    <div class="dropdown-title">
-                        <h3 class="h3-qna title-style">Cum pot contacta un angajator?</h3>
-                        <img class="carret grey" src="./images/carret-down.svg"/>
-                    </div>
-                    <p class="dropdown-text grey-text light-font">
-                        Puteți contacta un angajator prin intermediul platformei de angajare dupa selectarea anunțului
-                        preferat. Dacă contactați un angajator prin intermediul platformei de angajare, veți avea acces
-                        la informațiile de contact ale angajatorului în fereastra de chat. De asemenea, puteți vedea
-                        dacă angajatorul este disponibil pentru mesaje sau apeluri video-telefonice.
-                    </p>
-                </div>
-                <div class="q-selection">
-                    <div class="dropdown-title">
-                        <h3 class="h3-qna title-style">Cum pot urmări stadiul aplicației mele?</h3>
-                        <img class="carret grey" src="./images/carret-down.svg"/>
-                    </div>
-                    <p class="dropdown-text grey-text light-font">
-                        Puteți urmări stadiul aplicației dvs. pe platforma de angajare. De obicei, veți putea vedea
-                        stadiul în care se află aplicația dvs. prin noțiuni precum „Aplicat”, „Interviu” sau „Angajat”.
-                        De asemenea, puteți vedea dacă angajatorul a luat vreo măsură, cum ar fi să vă contacteze pentru
-                        un interviu sau să vă respingă aplicația.
-                    </p>
-                </div>
-                <div class="q-selection">
-                    <div class="dropdown-title">
-                        <h3 class="h3-qna title-style">Cum pot obține feedback asupra muncii mele?</h3>
-                        <img class="carret grey" src="./images/carret-down.svg"/>
-                    </div>
-                    <p class="dropdown-text grey-text light-font">
-                        Dovada de feedback asupra muncii prestate de dvs. va veni automat de la angajator după
-                        incheierea turei de muncă.
-                    </p>
-                </div>
-                <div class="q-selection">
-                    <div class="dropdown-title">
-                        <h3 class="h3-qna title-style">Cum pot evita frauda în locurile de muncă?</h3>
-                        <img class="carret grey" src="./images/carret-down.svg"/>
-                    </div>
-                    <p class="dropdown-text grey-text light-font">
-                        Există mai multe lucruri pe care le puteți face pentru a evita frauda în locurile de muncă, cum
-                        ar fi:
-                        Fii precaut cu privire la anunțurile de locuri de muncă care oferă salarii sau beneficii
-                        neobișnuite.
-                        Nu trimiteți niciodată bani unui angajator în schimbul unui loc de muncă.
-                        Verificați compania și angajatorul înainte de a aplica.
-                        Fii atent la orice semne de înșelătorie, precum un limbaj vag sau neprofesionist.
-                    </p>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
 </div>
 
 <footer class="footer-container">
@@ -611,7 +487,7 @@
         <div class="footer-main">
             <div class="footer-navigate-links">
                 <div class="f-nav-links">
-                    <a class="text-link" href="angajatori.html">Angajator</a>
+                    <a class="text-link" href="./angajatori.html">Angajator</a>
                     <a class="text-link" href="candidati.html">Candidat</a>
                     <a class="text-link" href="./about-page.html">Despre Noi</a>
                     <a class="text-link" href="./contact-page.html">Contact</a>
@@ -625,10 +501,10 @@
             </div>
             <div class="footer-tos">
                 <div class="footer-tos-links">
-                    <a class="text-link" href="#">Privacy policy</a>
-                    <a class="text-link" href="#">Terms of use</a>
-                    <a class="text-link" href="#">GDPR</a>
-                    <a class="text-link" href="#">Cookies</a>
+                    <a class="text-link" href="./tc.html">Privacy policy</a>
+                    <a class="text-link" href="./tc.html">Terms of use</a>
+                    <a class="text-link" href="./tc.html">GDPR</a>
+                    <a class="text-link" href="./tc.html">Cookies</a>
                 </div>
                 <div class="watermark">
                     <p>© Jobbin, 2024</p>
