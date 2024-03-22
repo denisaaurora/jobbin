@@ -757,7 +757,7 @@ h1 {
 #red-highlight-main {
   position: absolute;
   bottom: -12px;
-  right: 150px;
+  right: 600px;
 }
 
 #lp-main-mobile {
@@ -870,17 +870,12 @@ h1 {
   justify-content: center;
 }
 
-.blue-section #red-highlight-main {
-  bottom:-16px;
-  right: 50px;
-}
-
 .employer-candidate {
   right: 232px !important;
 }
 
 .employer-candidate1 {
-  right: 250px !important;
+  /*right: 250px !important;*/
 }
 
 .blue-section .main-text-title-employer {
@@ -985,7 +980,12 @@ h1 {
   .blue-section #red-highlight-main {
     position: absolute;
     /*bottom: -8px;*/
-    right: 212px;
+    /*right: 212px;*/
+  }
+
+  .blue-section #red-highlight-main {
+    bottom:-16px;
+    right: 50px;
   }
 
   .main {
