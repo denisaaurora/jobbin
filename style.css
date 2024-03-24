@@ -642,6 +642,15 @@ h1 {
   font-size: 24px;
 }
 
+.package-color {
+  color:#486AF6;
+  text-align: end;
+}
+
+.package-text {
+  font-family: Poppins;
+}
+
 .btn-pack {
   width: 100%;
   padding: 16px 32px;
@@ -757,7 +766,13 @@ h1 {
 #red-highlight-main {
   position: absolute;
   bottom: -12px;
-  right: 600px;
+  right: 128px;
+}
+
+#red-highlight-main-candidates {
+  position: absolute;
+  bottom: -12px;
+  right: 148px;
 }
 
 #lp-main-mobile {
@@ -875,7 +890,11 @@ h1 {
 }
 
 .employer-candidate1 {
-  /*right: 250px !important;*/
+  right: 250px !important;
+}
+
+.candidate-red-underline {
+  top: 64px;
 }
 
 .blue-section .main-text-title-employer {
@@ -1011,6 +1030,10 @@ h1 {
 
   .bg-lines {
     display: none;
+  }
+
+  .candidate-red-underline {
+    top: 48px;
   }
 
   .desktop-container {
@@ -1211,8 +1234,8 @@ h1 {
   }
 
   .icons-prt {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   .nav-logo {
