@@ -191,8 +191,9 @@ h2 {
 }
 
 .plan-info-details {
-  font-size: 14px;
+  /*font-size: 14px;*/
   color:#486AF6;
+  padding-right: 8px;
 }
 
 .bg-lines {
@@ -614,6 +615,7 @@ h1 {
   padding: 20px;
   text-align: left;
   background: white;
+  border: 1px solid #486af6;
 }
 
 .package-btn {
@@ -891,6 +893,10 @@ h1 {
 
 .employer-candidate1 {
   right: 250px !important;
+}
+
+.employer-red-highlight {
+  top: 64px;
 }
 
 .candidate-red-underline {
