@@ -518,6 +518,10 @@ h1 {
   background-color: #f2f4f6;
 }
 
+.benefits.employer .dropdowns-employer {
+  background-color: white;
+ }
+
 .dropdown-title {
   color: #180e73;
   font-weight: 700;
