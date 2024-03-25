@@ -714,6 +714,10 @@ h1 {
   border-bottom: 2px solid white;
 }
 
+.q-selection.candidatates {
+  border-color: #f2f4f6;
+}
+
 .frequent-questions {
   text-wrap: nowrap;
   color: #180e73;
