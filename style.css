@@ -944,6 +944,15 @@ h1 {
 
 @media only screen and (max-width: 500px) {
 
+  #red-highlight-main.index {
+    bottom: 30px;
+  }
+
+  .employer-candidate1.employer-red-highlight#red-highlight-main{
+    top:50px;
+  }
+
+
   /* font size mobile */
 
   h1, .h1-employer {
@@ -1386,5 +1395,9 @@ h1 {
   .download-btn.contact {
     width: 100%;
     margin-top: 24px;
+  }
+
+  .btn {
+    text-align: center;
   }
 }
