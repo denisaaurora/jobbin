@@ -518,6 +518,10 @@ h1 {
   background-color: #f2f4f6;
 }
 
+.benefits.employer .dropdowns-employer {
+  background-color: white;
+ }
+
 .dropdown-title {
   color: #180e73;
   font-weight: 700;
@@ -712,6 +716,10 @@ h1 {
   padding-top: 24px;
   padding-bottom: 20px;
   border-bottom: 2px solid white;
+}
+
+.q-selection.candidatates {
+  border-color: #f2f4f6;
 }
 
 .frequent-questions {
@@ -935,6 +943,15 @@ h1 {
 }
 
 @media only screen and (max-width: 500px) {
+
+  #red-highlight-main.index {
+    bottom: 30px;
+  }
+
+  .employer-candidate1.employer-red-highlight#red-highlight-main{
+    top:50px;
+  }
+
 
   /* font size mobile */
 
@@ -1378,5 +1395,9 @@ h1 {
   .download-btn.contact {
     width: 100%;
     margin-top: 24px;
+  }
+
+  .btn {
+    text-align: center;
   }
 }
